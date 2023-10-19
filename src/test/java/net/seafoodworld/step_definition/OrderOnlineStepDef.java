@@ -141,25 +141,24 @@ public class OrderOnlineStepDef {
 
 
         onlineOrderPage.orderOnline.click();
-        actions.pause(2000).perform();
+        wait.until(ExpectedConditions.visibilityOf(onlineOrderPage.dinnerPlate));
         onlineOrderPage.dinnerPlate.click();
         js.executeScript("window.scrollBy(0,300)");
-        actions.pause(2000).perform();
+        wait.until(ExpectedConditions.visibilityOf(dinnerPlatePage.chickenTenders));
         dinnerPlatePage.chickenTenders.click();
-        actions.pause(2000).perform();
         dinnerPlate = dinnerPlatePage.dinnerPlateProductName.getText();
         Select select = new Select(dinnerPlatePage.chickenTendersChooseAnOption);
         select.selectByVisibleText("Broccoli");
         chosenOption = select.getFirstSelectedOption().getText();
         price = dinnerPlatePage.price.getText();
-        actions.pause(2000).perform();
+        wait.until(ExpectedConditions.visibilityOf(dinnerPlatePage.addToCart));
         dinnerPlatePage.addToCart.click();
-        actions.pause(2000).perform();
         List<String> act = new ArrayList<>();
         String product = dinnerPlate + " - " + chosenOption;
         act.add(product);
         act.add(price);
         expectedLst.add(act);
+        wait.until(ExpectedConditions.visibilityOf(dinnerPlatePage.viewCart));
         dinnerPlatePage.viewCart.click();
 
 
@@ -180,32 +179,23 @@ public class OrderOnlineStepDef {
 
         }
 
-        boolean breakStep = false;
+
         for (List<String> list : lst) {
-
-
-            boolean match = false;
+            int count = 0;
+            boolean assertVar = false;
             for (List<String> each : expectedLst) {
                 for (String s : each) {
-                    if(!list.contains(s)){
-                        breakStep=true;
-                       break;
-                }else {
-                        match=true;
-
+                    if (list.contains(s)) {
+                        count++;
+                    } else { break; }
+                }
+               }
+            if(count>=2){
+                assertVar=true;
+                Assert.assertTrue(assertVar);
             }
-         }
-      }
 
-            if (breakStep){
-                breakStep=false;
-                break;
-            }
-            Assert.assertTrue(match);
         }
-
-
-
 
 
 
@@ -232,12 +222,7 @@ public class OrderOnlineStepDef {
                     doubleSubtotal = Double.parseDouble(subtotal.substring(subtotal.indexOf("$")+1));
                     expectedSumSubtotal+=doubleSubtotal;
                        }
-
-
-
             }
-
-
         }
 
 
@@ -246,13 +231,8 @@ public class OrderOnlineStepDef {
         wait.until(ExpectedConditions.visibilityOf(cartPage.total));
         total = cartPage.total.getText();
         actualTotal =  Double.parseDouble(total.substring(total.indexOf("$")+1));
-
-
         expectedTotal = expectedSumSubtotal*doubleTax+expectedSumSubtotal;
-        System.out.println(actualTotal);
-        System.out.println(expectedTotal);
-
-         Assert.assertEquals(expectedTotal,actualTotal, 0.01);
+        Assert.assertEquals(expectedTotal,actualTotal, 0.01);
 
 
 

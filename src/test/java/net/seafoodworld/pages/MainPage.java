@@ -13,6 +13,12 @@ public class MainPage {
     @FindBy(xpath = "//a[.='Order Online']")
     public WebElement orderOnline;
 
+    @FindBy(xpath = "//li[@id='menu-item-1831']//a[.='Reservation']")
+    public WebElement reservation;
+
+    @FindBy(xpath = "//li[@id='menu-item-900']/a[.='Contact']")
+    public WebElement contact;
+
     public static void goToMainPage(){
         Driver.getDriver().get(ConfigReader.read("seafoodworld"));
     }
