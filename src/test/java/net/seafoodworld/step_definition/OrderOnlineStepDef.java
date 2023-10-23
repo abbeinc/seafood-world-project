@@ -24,7 +24,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class OrderOnlineStepDef {
-
+    AppetizersPage appetizersPage = new AppetizersPage();
     MainPage mainPage = new MainPage();
     OnlineOrderPage onlineOrderPage = new OnlineOrderPage();
     MyAccountPage myAccountPage = new MyAccountPage();
@@ -46,6 +46,7 @@ public class OrderOnlineStepDef {
     double doubleSubtotal=0;
     double expectedTotal;
     double expectedSumSubtotal;
+    String productName;
     List<List<String>> lst = new ArrayList<>();
     List<List<String>> expectedLst = new ArrayList<>();
     List<String> productTitle = new ArrayList<>();
@@ -111,10 +112,6 @@ public class OrderOnlineStepDef {
             if (each.getText().equals(expectedResult)) {
                 Assert.assertEquals(each.getText(), expectedResult);
             }
-
-
-
-
         }
 
     }
@@ -238,4 +235,56 @@ public class OrderOnlineStepDef {
 
 
     }
+
+
+    @When("user click Appetizers and and choose Buffalo Chicken Wings")
+    public void userClickAppetizersAndAndChooseBuffaloChickenWings() {
+        js.executeScript("window.scrollBy(0,500)");
+        onlineOrderPage.appetizersPlate.click();
+        js.executeScript("window.scrollBy(0,900)");
+        wait.until(ExpectedConditions.visibilityOf(appetizersPage.buffaloChickenWings));
+        actions.click(appetizersPage.buffaloChickenWings).click().perform();
+
+
+    }
+    @When("user pick {string} and {string}")
+    public void user_pick_and(String string, String string2) {
+
+        Select select1 = new Select(appetizersPage.chooseAnOption);
+        select1.selectByVisibleText(string);
+        Select select2 = new Select(appetizersPage.dippingSauce);
+        select2.selectByVisibleText(string2);
+
+    }
+    @When("choose {int} plates and click Add to cart and  view Cart")
+    public void choose_plates_and_click_add_to_cart_and_view_cart(Integer int1) {
+        String quantity = int1.toString();
+        js.executeScript("window.scrollBy(0,300)");
+        actions.click(appetizersPage.quantity).sendKeys(Keys.BACK_SPACE).sendKeys(quantity).perform();
+        actions.pause(2000).perform();
+        actions.click(appetizersPage.addToCart).sendKeys(Keys.ENTER).perform();
+        actions.pause(1000).perform();
+        wait.until(ExpectedConditions.visibilityOf(appetizersPage.viewCart));
+        appetizersPage.viewCart.click();
+
+    }
+    @Then("total price will be subtotal plus {int}% tax")
+    public void total_price_will_be_subtotal_plus_tax(double db1) {
+
+        double tax = db1/100;
+    subtotal = appetizersPage.singleSubtotal.getText();
+    double doSubtotal = Double.parseDouble(subtotal.substring(subtotal.indexOf("$")+1));
+    double expectedTotal = doSubtotal*tax+doSubtotal;
+        js.executeScript("window.scrollBy(0,500)");
+    total = cartPage.total.getText();
+    actualTotal = Double.parseDouble(total.substring(total.indexOf("$")+1));
+
+    Assert.assertEquals(expectedTotal, actualTotal,0.01);
+
+
+
+    }
+
+
+
 }

@@ -49,7 +49,7 @@ public class RegisterAccStepDef {
     }
 
     @And("user can edit password and account")
-    public void userCanEditPasswordAndAccount() throws InterruptedException {
+    public void userCanEditPasswordAndAccount() {
 
         password = faker.number().digits(5)+faker.name().firstName();
         myAccountPage.editYourPassword.click();

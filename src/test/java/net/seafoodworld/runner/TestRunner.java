@@ -15,8 +15,8 @@ import org.junit.runner.RunWith;
                             ,dryRun = false
 
 
-               ,tags="@single"
-                //,tags="@regression"
+               //,tags="@single"
+                ,tags="@regression"
                 //,tags="@smoke"
                 // ,tags="@sanity"
                // ,tags = "@ui"

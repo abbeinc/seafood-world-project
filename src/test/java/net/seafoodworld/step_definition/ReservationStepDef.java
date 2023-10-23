@@ -59,8 +59,6 @@ public class ReservationStepDef {
         wait.until(ExpectedConditions.visibilityOf(contactPage.reservationMsg));
         Assert.assertTrue(contactPage.reservationMsg.isDisplayed());
     }
-
-
     @When("user enters email, message and click send")
     public void userEntersEmailMessageAndClickSend() {
         String contactUrl = "https://www.seafoodworld.net/contact/";
@@ -215,16 +213,17 @@ public class ReservationStepDef {
     }
 
     @When("user click on the facebook picture link")
-    public void userClickOnTheFacebookPictureLink() {
+    public void userClickOnTheFacebookPictureLink()  {
         String contactUrl = "https://www.seafoodworld.net/contact/";
         wait.until(ExpectedConditions.urlMatches(contactUrl));
         String actualTitle = Driver.getDriver().getTitle().trim();
         String expectedTitle = "Seafood World Seafood Buffet Contact";
         Assert.assertEquals(expectedTitle,actualTitle);
-        js.executeScript("window.scrollBy(0,500)");
-
+        js.executeScript("window.scrollBy(0,800)");
+        wait.until(ExpectedConditions.visibilityOf(contactPage.facebookIframe));
         Driver.getDriver().switchTo().frame(contactPage.facebookIframe);
-        actions.pause(2000);
+        js.executeScript("window.scrollBy(0,100)");
+        wait.until(ExpectedConditions.visibilityOf(contactPage.facebookLink));
         wait.until(ExpectedConditions.visibilityOf(contactPage.facebookLink));
 
         contactPage.facebookLink.click();

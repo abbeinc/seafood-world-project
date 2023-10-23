@@ -23,6 +23,8 @@ public class OnlineOrderPage {
 
     @FindBy(xpath = "//a[@href='https://www.seafoodworld.net/order/category/dinner-plate/']")
     public WebElement dinnerPlate;
+    @FindBy(xpath = "//a[@href='https://www.seafoodworld.net/order/category/appetizers/']")
+    public WebElement appetizersPlate;
 
     @FindBy(xpath = "//ul[@id=\"menu-main\"]//span/span[contains(.,'– Order Online –')]")
     public WebElement orderOnline;

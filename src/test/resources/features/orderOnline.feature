@@ -16,6 +16,11 @@ Background:
       Then user should see his two orders
       And user should see his correct total prices with 11% tax
 
+      Scenario: user choose two appetizers and place an order
+        When user click Appetizers and and choose Buffalo Chicken Wings
+        And user pick "Spicy Hot Sauce" and "Blue Cheese"
+        And choose 2 plates and click Add to cart and  view Cart
+        Then total price will be subtotal plus 11% tax
 
 
 
