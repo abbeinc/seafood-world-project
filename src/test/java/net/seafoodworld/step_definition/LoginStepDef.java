@@ -51,7 +51,6 @@ public class LoginStepDef {
         Assert.assertEquals(username,actualUsername);
     }
 
-
     @When("user enters not registered email and password and press login")
     public void userEntersNotRegisteredEmailAndPasswordAndPressLogin() {
     String expetedTitle = "Seafood World – Online Order – Seafood World Calabash Seafood And Steak Buffet";

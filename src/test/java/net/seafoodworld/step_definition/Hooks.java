@@ -8,7 +8,6 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 
 import java.time.Duration;
-import java.util.concurrent.TimeUnit;
 
 public class Hooks {
     @Before("@single")
@@ -24,14 +23,7 @@ public class Hooks {
             TakesScreenshot ts = (TakesScreenshot) Driver.getDriver();
             byte[] screenshot = ts.getScreenshotAs(OutputType.BYTES);
             scenario.attach(screenshot, "image/png", "Attached img");
-
-
         }
-
-
         Driver.closeBrowser();
-
     }
-
-
 }
