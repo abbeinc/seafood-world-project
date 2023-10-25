@@ -10,14 +10,14 @@ import org.openqa.selenium.TakesScreenshot;
 import java.time.Duration;
 
 public class Hooks {
-    @Before("@single")
+    @Before("@regression")
     public void setupDriver() {
 
         Driver.getDriver().manage().timeouts().implicitlyWait(Duration.ofMillis(10000));
         Driver.getDriver().manage().window().maximize();
     }
 
-    @After("@single")
+    @After("@regression")
     public void tearDown(Scenario scenario) {
         if (scenario.isFailed()) {
             TakesScreenshot ts = (TakesScreenshot) Driver.getDriver();

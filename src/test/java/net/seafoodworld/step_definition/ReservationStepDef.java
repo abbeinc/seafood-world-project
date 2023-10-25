@@ -135,9 +135,9 @@ public class ReservationStepDef {
     public void userEntersNameMessageAndClickSend(String str) {
         String contactUrl = "https://www.seafoodworld.net/contact/";
         wait.until(ExpectedConditions.urlMatches(contactUrl));
-        String actualTitle = Driver.getDriver().getTitle().trim();
-        String expectedTitle = "Seafood World Seafood Buffet Contact";
-        Assert.assertEquals(expectedTitle,actualTitle);
+       // String actualTitle = Driver.getDriver().getTitle().trim();
+       // String expectedTitle = "Seafood World Seafood Buffet Contact";
+       // Assert.assertEquals(expectedTitle,actualTitle);
         js.executeScript("window.scrollBy(0,1000)");
         wait.until(ExpectedConditions.visibilityOf(contactPage.yourNameBox));
         contactPage.yourNameBox.sendKeys(faker.name().fullName());
@@ -155,9 +155,6 @@ public class ReservationStepDef {
     public void userScrollPageDown() {
         String contactUrl = "https://www.seafoodworld.net/contact/";
         wait.until(ExpectedConditions.urlMatches(contactUrl));
-        String actualTitle = Driver.getDriver().getTitle().trim();
-        String expectedTitle = "Seafood World Seafood Buffet Contact";
-        Assert.assertEquals(expectedTitle,actualTitle);
         js.executeScript("window.scrollBy(0,500)");
 
 

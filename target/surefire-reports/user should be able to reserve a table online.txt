@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: user should be able to reserve a table online
+-------------------------------------------------------------------------------
+Tests run: 15, Failures: 2, Errors: 1, Skipped: 0, Time elapsed: 235.03 s <<< FAILURE! - in user should be able to reserve a table online
+user should be able to reserve a table online.user can't send message if email is not correct #3  Time elapsed: 10.319 s  <<< ERROR!
+org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: 
+Origin element is not displayed
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [6b7c0c06-c03a-40f0-99bd-46c62346e84b, actions {actions=[org.openqa.selenium.interactions.Sequence@369efb5c]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.2, moz:accessibilityChecks: false, moz:buildID: 20231009140911, moz:debuggerAddress: 127.0.0.1:26272, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 6364, moz:profile: C:\Users\USER\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:26272/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6b7c0c06-c03a-40f0-99bd-46c62346e84b
+
+user should be able to reserve a table online.user can't send message if email is not correct #4  Time elapsed: 10 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[Seafood World Seafood Buffet Contact]> but was:<[]>
+
+user should be able to reserve a table online.user should see on contact page correct address, opening hours and phone number  Time elapsed: 10.672 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[Seafood World Seafood Buffet Contact]> but was:<[]>
+

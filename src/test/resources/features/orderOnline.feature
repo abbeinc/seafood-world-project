@@ -1,4 +1,4 @@
-
+@regression
 Feature: User should be able to choose food and place order online
 Background:
   Given user at the Order Online page

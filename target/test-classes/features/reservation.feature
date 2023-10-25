@@ -1,4 +1,4 @@
-
+@regression
 Feature: user should be able to reserve a table online
   Background:
     Given user at the contact page
@@ -46,7 +46,7 @@ Feature: user should be able to reserve a table online
     Scenario: user should see map on the contact page
       When user scroll all the way down
       Then user should see map
-  @regression
+
       Scenario: user should see facebook picture link
         When user click on the facebook picture link
         Then user should see Facebook page
