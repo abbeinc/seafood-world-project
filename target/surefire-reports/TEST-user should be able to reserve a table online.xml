@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="user should be able to reserve a table online" time="235.03" tests="15" errors="1" skipped="0" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="user should be able to reserve a table online" time="266.252" tests="15" errors="2" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
     <property name="file.encoding.pkg" value="sun.io"/>
     <property name="java.specification.version" value="1.8"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\USER\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1251"/>
     <property name="java.class.path" value="C:\Users\USER\WORKSPACE\seafood-world-project\target\test-classes;C:\Users\USER\WORKSPACE\seafood-world-project\target\classes;C:\Users\USER\.m2\repository\org\seleniumhq\selenium\selenium-java\4.8.1\selenium-java-4.8.1.jar;C:\Users\USER\.m2\repository\org\seleniumhq\selenium\selenium-api\4.8.1\selenium-api-4.8.1.jar;C:\Users\USER\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.8.1\selenium-chrome-driver-4.8.1.jar;C:\Users\USER\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\USER\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\USER\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\USER\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\USER\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\USER\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\USER\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\USER\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\USER\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\USER\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\USER\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.8.1\selenium-chromium-driver-4.8.1.jar;C:\Users\USER\.m2\repository\org\seleniumhq\selenium\selenium-json\4.8.1\selenium-json-4.8.1.jar;C:\Users\USER\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v108\4.8.1\selenium-devtools-v108-4.8.1.jar;C:\Users\USER\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v109\4.8.1\selenium-devtools-v109-4.8.1.jar;C:\Users\USER\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v110\4.8.1\selenium-devtools-v110-4.8.1.jar;C:\Users\USER\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.8.1\selenium-devtools-v85-4.8.1.jar;C:\Users\USER\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.8.1\selenium-edge-driver-4.8.1.jar;C:\Users\USER\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.8.1\selenium-firefox-driver-4.8.1.jar;C:\Users\USER\.m2\repository\org\seleniumhq\selenium\selenium-http\4.8.1\selenium-http-4.8.1.jar;C:\Users\USER\.m2\repository\dev\failsafe\failsafe\3.3.0\failsafe-3.3.0.jar;C:\Users\USER\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.8.1\selenium-ie-driver-4.8.1.jar;C:\Users\USER\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.8.1\selenium-remote-driver-4.8.1.jar;C:\Users\USER\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\USER\.m2\repository\io\netty\netty-buffer\4.1.87.Final\netty-buffer-4.1.87.Final.jar;C:\Users\USER\.m2\repository\io\netty\netty-codec-http\4.1.87.Final\netty-codec-http-4.1.87.Final.jar;C:\Users\USER\.m2\repository\io\netty\netty-codec\4.1.87.Final\netty-codec-4.1.87.Final.jar;C:\Users\USER\.m2\repository\io\netty\netty-handler\4.1.87.Final\netty-handler-4.1.87.Final.jar;C:\Users\USER\.m2\repository\io\netty\netty-common\4.1.87.Final\netty-common-4.1.87.Final.jar;C:\Users\USER\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.87.Final\netty-transport-classes-epoll-4.1.87.Final.jar;C:\Users\USER\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.87.Final\netty-transport-classes-kqueue-4.1.87.Final.jar;C:\Users\USER\.m2\repository\io\netty\netty-transport-native-epoll\4.1.87.Final\netty-transport-native-epoll-4.1.87.Final.jar;C:\Users\USER\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.87.Final\netty-transport-native-kqueue-4.1.87.Final.jar;C:\Users\USER\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.87.Final\netty-transport-native-unix-common-4.1.87.Final.jar;C:\Users\USER\.m2\repository\io\netty\netty-transport\4.1.87.Final\netty-transport-4.1.87.Final.jar;C:\Users\USER\.m2\repository\io\netty\netty-resolver\4.1.87.Final\netty-resolver-4.1.87.Final.jar;C:\Users\USER\.m2\repository\io\opentelemetry\opentelemetry-api\1.22.0\opentelemetry-api-1.22.0.jar;C:\Users\USER\.m2\repository\io\opentelemetry\opentelemetry-context\1.22.0\opentelemetry-context-1.22.0.jar;C:\Users\USER\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.22.0\opentelemetry-exporter-logging-1.22.0.jar;C:\Users\USER\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.22.0\opentelemetry-sdk-metrics-1.22.0.jar;C:\Users\USER\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.22.0-alpha\opentelemetry-sdk-logs-1.22.0-alpha.jar;C:\Users\USER\.m2\repository\io\opentelemetry\opentelemetry-api-logs\1.22.0-alpha\opentelemetry-api-logs-1.22.0-alpha.jar;C:\Users\USER\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.22.0\opentelemetry-sdk-common-1.22.0.jar;C:\Users\USER\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.22.0\opentelemetry-sdk-extension-autoconfigure-spi-1.22.0.jar;C:\Users\USER\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.22.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.22.0-alpha.jar;C:\Users\USER\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.22.0\opentelemetry-sdk-trace-1.22.0.jar;C:\Users\USER\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.22.0\opentelemetry-sdk-1.22.0.jar;C:\Users\USER\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.22.0-alpha\opentelemetry-semconv-1.22.0-alpha.jar;C:\Users\USER\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\USER\.m2\repository\net\bytebuddy\byte-buddy\1.12.22\byte-buddy-1.12.22.jar;C:\Users\USER\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\USER\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\USER\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\USER\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\USER\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\USER\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\USER\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\USER\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\USER\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\USER\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\USER\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.8.1\selenium-manager-4.8.1.jar;C:\Users\USER\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.8.1\selenium-safari-driver-4.8.1.jar;C:\Users\USER\.m2\repository\org\seleniumhq\selenium\selenium-support\4.8.1\selenium-support-4.8.1.jar;C:\Users\USER\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\USER\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\USER\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\USER\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\USER\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\USER\.m2\repository\io\github\bonigarcia\webdrivermanager\5.3.2\webdrivermanager-5.3.2.jar;C:\Users\USER\.m2\repository\org\slf4j\slf4j-api\2.0.6\slf4j-api-2.0.6.jar;C:\Users\USER\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\USER\.m2\repository\com\github\docker-java\docker-java\3.2.14\docker-java-3.2.14.jar;C:\Users\USER\.m2\repository\com\github\docker-java\docker-java-core\3.2.14\docker-java-core-3.2.14.jar;C:\Users\USER\.m2\repository\com\github\docker-java\docker-java-api\3.2.14\docker-java-api-3.2.14.jar;C:\Users\USER\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\USER\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\USER\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\USER\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\USER\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\USER\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\USER\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\USER\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\USER\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.14\docker-java-transport-httpclient5-3.2.14.jar;C:\Users\USER\.m2\repository\com\github\docker-java\docker-java-transport\3.2.14\docker-java-transport-3.2.14.jar;C:\Users\USER\.m2\repository\net\java\dev\jna\jna\5.12.1\jna-5.12.1.jar;C:\Users\USER\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\USER\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\USER\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\USER\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\USER\.m2\repository\io\cucumber\cucumber-java\7.11.1\cucumber-java-7.11.1.jar;C:\Users\USER\.m2\repository\io\cucumber\cucumber-core\7.11.1\cucumber-core-7.11.1.jar;C:\Users\USER\.m2\repository\io\cucumber\cucumber-gherkin\7.11.1\cucumber-gherkin-7.11.1.jar;C:\Users\USER\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.11.1\cucumber-gherkin-messages-7.11.1.jar;C:\Users\USER\.m2\repository\io\cucumber\gherkin\26.0.3\gherkin-26.0.3.jar;C:\Users\USER\.m2\repository\io\cucumber\messages\21.0.1\messages-21.0.1.jar;C:\Users\USER\.m2\repository\io\cucumber\tag-expressions\5.0.1\tag-expressions-5.0.1.jar;C:\Users\USER\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\USER\.m2\repository\io\cucumber\datatable\7.11.1\datatable-7.11.1.jar;C:\Users\USER\.m2\repository\io\cucumber\cucumber-plugin\7.11.1\cucumber-plugin-7.11.1.jar;C:\Users\USER\.m2\repository\io\cucumber\docstring\7.11.1\docstring-7.11.1.jar;C:\Users\USER\.m2\repository\io\cucumber\html-formatter\20.2.1\html-formatter-20.2.1.jar;C:\Users\USER\.m2\repository\io\cucumber\junit-xml-formatter\0.1.0\junit-xml-formatter-0.1.0.jar;C:\Users\USER\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\Users\USER\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\USER\.m2\repository\io\cucumber\cucumber-junit\7.11.1\cucumber-junit-7.11.1.jar;C:\Users\USER\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\USER\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\USER\.m2\repository\org\slf4j\slf4j-simple\2.0.5\slf4j-simple-2.0.5.jar;"/>
@@ -18,7 +19,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_231\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\USER\AppData\Local\Temp\surefire1564816620564937214\surefirebooter4990234273395533412.jar C:\Users\USER\AppData\Local\Temp\surefire1564816620564937214 2023-10-25T05-01-54_396-jvmRun1 surefire8753366217532418212tmp surefire_07208230799755470614tmp"/>
+    <property name="sun.java.command" value="C:\Users\USER\AppData\Local\Temp\surefire7862797648864447084\surefirebooter8737549192603487437.jar C:\Users\USER\AppData\Local\Temp\surefire7862797648864447084 2023-10-26T05-56-52_838-jvmRun1 surefire4570015122497737599tmp surefire_07325893545190585795tmp"/>
     <property name="surefire.test.class.path" value="C:\Users\USER\WORKSPACE\seafood-world-project\target\test-classes;C:\Users\USER\WORKSPACE\seafood-world-project\target\classes;C:\Users\USER\.m2\repository\org\seleniumhq\selenium\selenium-java\4.8.1\selenium-java-4.8.1.jar;C:\Users\USER\.m2\repository\org\seleniumhq\selenium\selenium-api\4.8.1\selenium-api-4.8.1.jar;C:\Users\USER\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.8.1\selenium-chrome-driver-4.8.1.jar;C:\Users\USER\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\USER\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\USER\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\USER\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\USER\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\USER\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\USER\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\USER\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\USER\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\USER\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\USER\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.8.1\selenium-chromium-driver-4.8.1.jar;C:\Users\USER\.m2\repository\org\seleniumhq\selenium\selenium-json\4.8.1\selenium-json-4.8.1.jar;C:\Users\USER\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v108\4.8.1\selenium-devtools-v108-4.8.1.jar;C:\Users\USER\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v109\4.8.1\selenium-devtools-v109-4.8.1.jar;C:\Users\USER\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v110\4.8.1\selenium-devtools-v110-4.8.1.jar;C:\Users\USER\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.8.1\selenium-devtools-v85-4.8.1.jar;C:\Users\USER\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.8.1\selenium-edge-driver-4.8.1.jar;C:\Users\USER\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.8.1\selenium-firefox-driver-4.8.1.jar;C:\Users\USER\.m2\repository\org\seleniumhq\selenium\selenium-http\4.8.1\selenium-http-4.8.1.jar;C:\Users\USER\.m2\repository\dev\failsafe\failsafe\3.3.0\failsafe-3.3.0.jar;C:\Users\USER\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.8.1\selenium-ie-driver-4.8.1.jar;C:\Users\USER\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.8.1\selenium-remote-driver-4.8.1.jar;C:\Users\USER\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\USER\.m2\repository\io\netty\netty-buffer\4.1.87.Final\netty-buffer-4.1.87.Final.jar;C:\Users\USER\.m2\repository\io\netty\netty-codec-http\4.1.87.Final\netty-codec-http-4.1.87.Final.jar;C:\Users\USER\.m2\repository\io\netty\netty-codec\4.1.87.Final\netty-codec-4.1.87.Final.jar;C:\Users\USER\.m2\repository\io\netty\netty-handler\4.1.87.Final\netty-handler-4.1.87.Final.jar;C:\Users\USER\.m2\repository\io\netty\netty-common\4.1.87.Final\netty-common-4.1.87.Final.jar;C:\Users\USER\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.87.Final\netty-transport-classes-epoll-4.1.87.Final.jar;C:\Users\USER\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.87.Final\netty-transport-classes-kqueue-4.1.87.Final.jar;C:\Users\USER\.m2\repository\io\netty\netty-transport-native-epoll\4.1.87.Final\netty-transport-native-epoll-4.1.87.Final.jar;C:\Users\USER\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.87.Final\netty-transport-native-kqueue-4.1.87.Final.jar;C:\Users\USER\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.87.Final\netty-transport-native-unix-common-4.1.87.Final.jar;C:\Users\USER\.m2\repository\io\netty\netty-transport\4.1.87.Final\netty-transport-4.1.87.Final.jar;C:\Users\USER\.m2\repository\io\netty\netty-resolver\4.1.87.Final\netty-resolver-4.1.87.Final.jar;C:\Users\USER\.m2\repository\io\opentelemetry\opentelemetry-api\1.22.0\opentelemetry-api-1.22.0.jar;C:\Users\USER\.m2\repository\io\opentelemetry\opentelemetry-context\1.22.0\opentelemetry-context-1.22.0.jar;C:\Users\USER\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.22.0\opentelemetry-exporter-logging-1.22.0.jar;C:\Users\USER\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.22.0\opentelemetry-sdk-metrics-1.22.0.jar;C:\Users\USER\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.22.0-alpha\opentelemetry-sdk-logs-1.22.0-alpha.jar;C:\Users\USER\.m2\repository\io\opentelemetry\opentelemetry-api-logs\1.22.0-alpha\opentelemetry-api-logs-1.22.0-alpha.jar;C:\Users\USER\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.22.0\opentelemetry-sdk-common-1.22.0.jar;C:\Users\USER\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.22.0\opentelemetry-sdk-extension-autoconfigure-spi-1.22.0.jar;C:\Users\USER\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.22.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.22.0-alpha.jar;C:\Users\USER\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.22.0\opentelemetry-sdk-trace-1.22.0.jar;C:\Users\USER\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.22.0\opentelemetry-sdk-1.22.0.jar;C:\Users\USER\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.22.0-alpha\opentelemetry-semconv-1.22.0-alpha.jar;C:\Users\USER\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\USER\.m2\repository\net\bytebuddy\byte-buddy\1.12.22\byte-buddy-1.12.22.jar;C:\Users\USER\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\USER\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\USER\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\USER\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\USER\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\USER\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\USER\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\USER\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\USER\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\USER\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\USER\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.8.1\selenium-manager-4.8.1.jar;C:\Users\USER\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.8.1\selenium-safari-driver-4.8.1.jar;C:\Users\USER\.m2\repository\org\seleniumhq\selenium\selenium-support\4.8.1\selenium-support-4.8.1.jar;C:\Users\USER\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\USER\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\USER\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\USER\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\USER\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\USER\.m2\repository\io\github\bonigarcia\webdrivermanager\5.3.2\webdrivermanager-5.3.2.jar;C:\Users\USER\.m2\repository\org\slf4j\slf4j-api\2.0.6\slf4j-api-2.0.6.jar;C:\Users\USER\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\USER\.m2\repository\com\github\docker-java\docker-java\3.2.14\docker-java-3.2.14.jar;C:\Users\USER\.m2\repository\com\github\docker-java\docker-java-core\3.2.14\docker-java-core-3.2.14.jar;C:\Users\USER\.m2\repository\com\github\docker-java\docker-java-api\3.2.14\docker-java-api-3.2.14.jar;C:\Users\USER\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\USER\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\USER\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\USER\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\USER\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\USER\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\USER\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\USER\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\USER\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.14\docker-java-transport-httpclient5-3.2.14.jar;C:\Users\USER\.m2\repository\com\github\docker-java\docker-java-transport\3.2.14\docker-java-transport-3.2.14.jar;C:\Users\USER\.m2\repository\net\java\dev\jna\jna\5.12.1\jna-5.12.1.jar;C:\Users\USER\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\USER\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\USER\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\USER\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\USER\.m2\repository\io\cucumber\cucumber-java\7.11.1\cucumber-java-7.11.1.jar;C:\Users\USER\.m2\repository\io\cucumber\cucumber-core\7.11.1\cucumber-core-7.11.1.jar;C:\Users\USER\.m2\repository\io\cucumber\cucumber-gherkin\7.11.1\cucumber-gherkin-7.11.1.jar;C:\Users\USER\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.11.1\cucumber-gherkin-messages-7.11.1.jar;C:\Users\USER\.m2\repository\io\cucumber\gherkin\26.0.3\gherkin-26.0.3.jar;C:\Users\USER\.m2\repository\io\cucumber\messages\21.0.1\messages-21.0.1.jar;C:\Users\USER\.m2\repository\io\cucumber\tag-expressions\5.0.1\tag-expressions-5.0.1.jar;C:\Users\USER\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\USER\.m2\repository\io\cucumber\datatable\7.11.1\datatable-7.11.1.jar;C:\Users\USER\.m2\repository\io\cucumber\cucumber-plugin\7.11.1\cucumber-plugin-7.11.1.jar;C:\Users\USER\.m2\repository\io\cucumber\docstring\7.11.1\docstring-7.11.1.jar;C:\Users\USER\.m2\repository\io\cucumber\html-formatter\20.2.1\html-formatter-20.2.1.jar;C:\Users\USER\.m2\repository\io\cucumber\junit-xml-formatter\0.1.0\junit-xml-formatter-0.1.0.jar;C:\Users\USER\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\Users\USER\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\USER\.m2\repository\io\cucumber\cucumber-junit\7.11.1\cucumber-junit-7.11.1.jar;C:\Users\USER\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\USER\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\USER\.m2\repository\org\slf4j\slf4j-simple\2.0.5\slf4j-simple-2.0.5.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\USER"/>
@@ -31,7 +32,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\USER\AppData\Local\Temp\surefire1564816620564937214\surefirebooter4990234273395533412.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\USER\AppData\Local\Temp\surefire7862797648864447084\surefirebooter8737549192603487437.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_231\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_231\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -50,11 +51,10 @@
     <property name="java.version" value="1.8.0_231"/>
     <property name="user.dir" value="C:\Users\USER\WORKSPACE\seafood-world-project"/>
     <property name="os.arch" value="amd64"/>
-    <property name="webdriver.gecko.driver" value="C:\Users\USER\.cache\selenium\geckodriver\win64\0.33.0\geckodriver.exe"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="sun.os.patch.level" value=""/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_231\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Maven\apache-maven-3.9.5\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_231\bin;C:\Users\USER\AppData\Local\Microsoft\WindowsApps;C:\Users\USER\AppData\Local\JetBrains\Toolbox\scripts;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_231\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Google\chrome-win64\chrome.exe;C:\Program Files\Maven\apache-maven-3.9.5\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_231\bin;C:\Webdriver;C:\Users\USER\AppData\Local\Microsoft\WindowsApps;C:\Users\USER\AppData\Local\JetBrains\Toolbox\scripts;;."/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.version" value="25.231-b11"/>
@@ -62,7 +62,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="user fill up all the fields and send reservation" classname="user should be able to reserve a table online" time="24.754">
+  <testcase name="user fill up all the fields and send reservation" classname="user should be able to reserve a table online" time="28.31">
     <system-out><![CDATA[
 @regression
 Scenario: user fill up all the fields and send reservation &amp#27;[90m# src/test/resources/features/reservation.feature:6&amp#27;[0m
@@ -70,58 +70,20 @@ Scenario: user fill up all the fields and send reservation &amp#27;[90m# src/tes
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters name, email, message and click send&amp#27;[0m     &amp#27;[90m# net.seafoodworld.step_definition.ReservationStepDef.user_enters_name_email_message_and_click_send()&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser should see message&amp#27;[0m                             &amp#27;[90m# net.seafoodworld.step_definition.ReservationStepDef.user_should_see_message()&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[[pool-2-thread-2] INFO io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.33.0 (resolved driver for Firefox 118)
-[pool-2-thread-2] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\USER\.cache\selenium\geckodriver\win64\0.33.0\geckodriver.exe
-1698224518802	geckodriver	INFO	Listening on 127.0.0.1:7795
-1698224519282	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "16508" "--remote ... /localhost:16508/,http://[::1]:16508/" "-no-remote" "-profile" "C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofileG7lruw"
-console.warn: services.settings: Ignoring preference override of remote settings server
-console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1698224519886	Marionette	INFO	Marionette enabled
-Dynamically enable window occlusion 0
-1698224520042	Marionette	INFO	Listening on port 63490
-WebDriver BiDi listening on ws://127.0.0.1:16508
-Read port: 63490
-1698224520458	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-DevTools listening on ws://127.0.0.1:16508/devtools/browser/3036cdb3-1d1d-4307-82b4-6ec984ca0206
-JavaScript error: https://www.seafoodworld.net/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1, line 2: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
-JavaScript warning: https://www.google.com/js/th/Hlz_Mxh4zCuFpTIAeBvdZdR70vO27nrP9ghCf57VmoM.js line 2 > eval line 3247 > eval line 1 > eval line 1 > eval, line 1: Script terminated by timeout at:
-xZ@https://www.google.com/js/th/Hlz_Mxh4zCuFpTIAeBvdZdR70vO27nrP9ghCf57VmoM.js line 2 > eval line 3247 > eval line 1 > eval line 1 > eval:1:188
-qV@https://www.google.com/js/th/Hlz_Mxh4zCuFpTIAeBvdZdR70vO27nrP9ghCf57VmoM.js line 2 > eval line 3247 > eval line 1 > eval line 1 > eval:1:45
-b.prototype.S</<@https://www.google.com/js/th/Hlz_Mxh4zCuFpTIAeBvdZdR70vO27nrP9ghCf57VmoM.js line 2 > eval:3247:36362
-Vh@https://www.google.com/js/th/Hlz_Mxh4zCuFpTIAeBvdZdR70vO27nrP9ghCf57VmoM.js line 2 > eval:3247:17264
-P@https://www.google.com/js/th/Hlz_Mxh4zCuFpTIAeBvdZdR70vO27nrP9ghCf57VmoM.js line 2 > eval:3247:10994
-u@https://www.google.com/js/th/Hlz_Mxh4zCuFpTIAeBvdZdR70vO27nrP9ghCf57VmoM.js line 2 > eval:3247:2453
-M@https://www.google.com/js/th/Hlz_Mxh4zCuFpTIAeBvdZdR70vO27nrP9ghCf57VmoM.js line 2 > eval line 3247 > eval line 1 > eval line 1 > eval:1:187
-D.Bu@https://www.google.com/js/th/Hlz_Mxh4zCuFpTIAeBvdZdR70vO27nrP9ghCf57VmoM.js line 2 > eval:3247:35562
-db@https://www.google.com/js/th/Hlz_Mxh4zCuFpTIAeBvdZdR70vO27nrP9ghCf57VmoM.js line 2 > eval:3247:3104
-AJ.gYh_/<@https://www.google.com/js/th/Hlz_Mxh4zCuFpTIAeBvdZdR70vO27nrP9ghCf57VmoM.js line 2 > eval:3247:38168
-tn.prototype.SZ@https://www.youtube.com/s/player/96163992/player_ias.vflset/en_US/base.js:7802:149
-rI.prototype.U_@https://www.youtube.com/s/player/96163992/player_ias.vflset/en_US/base.js:8906:41
-g.k.invoke@https://www.youtube.com/s/player/96163992/player_ias.vflset/en_US/base.js:8897:64
-GKa@https://www.youtube.com/s/player/96163992/player_ias.vflset/en_US/base.js:3963:47
-g.KKa/a.c1a@https://www.youtube.com/s/player/96163992/player_ias.vflset/en_US/base.js:3969:276
-g.LKa@https://www.youtube.com/s/player/96163992/player_ias.vflset/en_US/base.js:3972:167
-g.k.eR@https://www.youtube.com/s/player/96163992/player_ias.vflset/en_US/base.js:12126:77
-g.k.sendAbandonmentPing@https://www.youtube.com/s/player/96163992/player_ias.vflset/en_US/base.js:12015:102
-g.k.sendAbandonmentPing@https://www.youtube.com/s/player/96163992/player_ias.vflset/en_US/base.js:10185:62
-ZT/a.state.j[b]@https://www.youtube.com/s/player/96163992/player_ias.vflset/en_US/base.js:4743:53
-ux/<@https://www.youtube.com/s/player/96163992/www-embed-player.vflset/www-embed-player.js:1822:107
-Gx@https://www.youtube.com/s/player/96163992/www-embed-player.vflset/www-embed-player.js:1857:46
-Kx<@https://www.youtube.com/s/player/96163992/www-embed-player.vflset/www-embed-player.js:1864:183
-Wk/<@https://www.youtube.com/s/player/96163992/www-embed-player.vflset/www-embed-player.js:855:63
-
-console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.seafoodworld.net."
-1698224540305	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:63599
-1698224540314	CDP	WARN	Invalid browser preferences for CDP. Set "fission.webContentIsolationStrategy"to 0 and "fission.bfcacheInParent" to false before Firefox starts.
-1698224540398	Marionette	INFO	Stopped listening on port 63490
-JavaScript warning: https://maps.googleapis.com/maps-api-v3/api/js/54/11/common.js, line 211: Script terminated by timeout at:
-e@https://maps.googleapis.com/maps-api-v3/api/js/54/11/common.js:211:381
-
-JavaScript error: https://www.seafoodworld.net/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1, line 2: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
-Dynamically enable window occlusion 1
+    <system-err><![CDATA[[pool-2-thread-3] ERROR io.github.bonigarcia.wdm.online.HttpClient - Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_118
+[pool-2-thread-3] WARN io.github.bonigarcia.wdm.versions.VersionDetector - Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_118 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_118)
+[pool-2-thread-3] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\USER\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+Starting ChromeDriver 118.0.5993.70 (e52f33f30b91b4ddfad649acddc39ab570473b86-refs/branch-heads/5993@{#1216}) on port 8031
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Oct 26, 2023 5:57:00 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 118
+Oct 26, 2023 5:57:00 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.8.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="user fill up all fields except Name" classname="user should be able to reserve a table online" time="21.885">
+  <testcase name="user fill up all fields except Name" classname="user should be able to reserve a table online" time="27.525">
     <system-out><![CDATA[
 @regression
 Scenario: user fill up all fields except Name    &amp#27;[90m# src/test/resources/features/reservation.feature:11&amp#27;[0m
@@ -129,60 +91,20 @@ Scenario: user fill up all fields except Name    &amp#27;[90m# src/test/resource
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters email, message and click send&amp#27;[0m &amp#27;[90m# net.seafoodworld.step_definition.ReservationStepDef.userEntersEmailMessageAndClickSend()&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser should see warning message&amp#27;[0m           &amp#27;[90m# net.seafoodworld.step_definition.ReservationStepDef.userShouldSeeWarningMessage()&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[[pool-2-thread-2] INFO io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.33.0 (resolved driver for Firefox 118)
-[pool-2-thread-2] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\USER\.cache\selenium\geckodriver\win64\0.33.0\geckodriver.exe
-1698224542229	geckodriver	INFO	Listening on 127.0.0.1:15179
-1698224542742	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "21475" "--remote ... /localhost:21475/,http://[::1]:21475/" "-no-remote" "-profile" "C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofileIRBeFJ"
-console.warn: services.settings: Ignoring preference override of remote settings server
-console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1698224543311	Marionette	INFO	Marionette enabled
-Dynamically enable window occlusion 0
-1698224543427	Marionette	INFO	Listening on port 63609
-WebDriver BiDi listening on ws://127.0.0.1:21475
-Read port: 63609
-1698224543851	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-DevTools listening on ws://127.0.0.1:21475/devtools/browser/7f515d88-f097-456e-9a28-48f0d205e0ac
-JavaScript error: https://www.seafoodworld.net/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1, line 2: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
-console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.seafoodworld.net."
-JavaScript warning: https://www.google.com/js/th/Hlz_Mxh4zCuFpTIAeBvdZdR70vO27nrP9ghCf57VmoM.js line 2 > eval line 7740 > eval line 1 > eval line 1 > eval, line 1: Script terminated by timeout at:
-@https://www.google.com/js/th/Hlz_Mxh4zCuFpTIAeBvdZdR70vO27nrP9ghCf57VmoM.js line 2 > eval line 7740 > eval line 1 > eval line 1 > eval:1:44
-xZ@https://www.google.com/js/th/Hlz_Mxh4zCuFpTIAeBvdZdR70vO27nrP9ghCf57VmoM.js line 2 > eval line 7740 > eval line 1 > eval line 1 > eval:1:199
-qV@https://www.google.com/js/th/Hlz_Mxh4zCuFpTIAeBvdZdR70vO27nrP9ghCf57VmoM.js line 2 > eval line 7740 > eval line 1 > eval line 1 > eval:1:45
-b.prototype.S</<@https://www.google.com/js/th/Hlz_Mxh4zCuFpTIAeBvdZdR70vO27nrP9ghCf57VmoM.js line 2 > eval:7740:36362
-Vh@https://www.google.com/js/th/Hlz_Mxh4zCuFpTIAeBvdZdR70vO27nrP9ghCf57VmoM.js line 2 > eval:7740:17264
-P@https://www.google.com/js/th/Hlz_Mxh4zCuFpTIAeBvdZdR70vO27nrP9ghCf57VmoM.js line 2 > eval:7740:10994
-u@https://www.google.com/js/th/Hlz_Mxh4zCuFpTIAeBvdZdR70vO27nrP9ghCf57VmoM.js line 2 > eval:7740:2453
-M@https://www.google.com/js/th/Hlz_Mxh4zCuFpTIAeBvdZdR70vO27nrP9ghCf57VmoM.js line 2 > eval line 7740 > eval line 1 > eval line 1 > eval:1:187
-D.Bu@https://www.google.com/js/th/Hlz_Mxh4zCuFpTIAeBvdZdR70vO27nrP9ghCf57VmoM.js line 2 > eval:7740:35562
-db@https://www.google.com/js/th/Hlz_Mxh4zCuFpTIAeBvdZdR70vO27nrP9ghCf57VmoM.js line 2 > eval:7740:3104
-AJ.gYh_/<@https://www.google.com/js/th/Hlz_Mxh4zCuFpTIAeBvdZdR70vO27nrP9ghCf57VmoM.js line 2 > eval:7740:38168
-tn.prototype.SZ@https://www.youtube.com/s/player/96163992/player_ias.vflset/en_US/base.js:7802:149
-rI.prototype.U_@https://www.youtube.com/s/player/96163992/player_ias.vflset/en_US/base.js:8906:41
-g.k.invoke@https://www.youtube.com/s/player/96163992/player_ias.vflset/en_US/base.js:8897:64
-GKa@https://www.youtube.com/s/player/96163992/player_ias.vflset/en_US/base.js:3963:47
-g.KKa/a.c1a@https://www.youtube.com/s/player/96163992/player_ias.vflset/en_US/base.js:3969:276
-g.LKa@https://www.youtube.com/s/player/96163992/player_ias.vflset/en_US/base.js:3972:167
-g.k.eR@https://www.youtube.com/s/player/96163992/player_ias.vflset/en_US/base.js:12126:77
-g.k.sendAbandonmentPing@https://www.youtube.com/s/player/96163992/player_ias.vflset/en_US/base.js:12015:102
-g.k.sendAbandonmentPing@https://www.youtube.com/s/player/96163992/player_ias.vflset/en_US/base.js:10185:62
-ZT/a.state.j[b]@https://www.youtube.com/s/player/96163992/player_ias.vflset/en_US/base.js:4743:53
-ux/<@https://www.youtube.com/s/player/96163992/www-embed-player.vflset/www-embed-player.js:1822:107
-Gx@https://www.youtube.com/s/player/96163992/www-embed-player.vflset/www-embed-player.js:1857:46
-Kx<@https://www.youtube.com/s/player/96163992/www-embed-player.vflset/www-embed-player.js:1864:183
-Wk/<@https://www.youtube.com/s/player/96163992/www-embed-player.vflset/www-embed-player.js:855:63
-
-1698224558232	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:63678
-1698224558239	CDP	WARN	Invalid browser preferences for CDP. Set "fission.webContentIsolationStrategy"to 0 and "fission.bfcacheInParent" to false before Firefox starts.
-1698224558281	Marionette	INFO	Stopped listening on port 63609
-JavaScript warning: https://maps.googleapis.com/maps/api/js?client=google-maps-embed&paint_origin=&libraries=geometry,search&v=3.exp&language=en&region=us&callback=onApiLoad, line 55: Script terminated by timeout at:
-caa@https://maps.googleapis.com/maps/api/js?client=google-maps-embed&paint_origin=&libraries=geometry,search&v=3.exp&language=en&region=us&callback=onApiLoad:55:267
-_.tr.prototype.i@https://maps.googleapis.com/maps-api-v3/api/js/54/11/common.js:233:869
-
-Dynamically enable window occlusion 1
-!!! error running onStopped callback: TypeError: callback is not a function
+    <system-err><![CDATA[[pool-2-thread-3] ERROR io.github.bonigarcia.wdm.online.HttpClient - Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_118
+[pool-2-thread-3] WARN io.github.bonigarcia.wdm.versions.VersionDetector - Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_118 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_118)
+[pool-2-thread-3] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\USER\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+Starting ChromeDriver 118.0.5993.70 (e52f33f30b91b4ddfad649acddc39ab570473b86-refs/branch-heads/5993@{#1216}) on port 32478
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Oct 26, 2023 5:57:36 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 118
+Oct 26, 2023 5:57:36 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.8.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="user fill up all fields except Email" classname="user should be able to reserve a table online" time="21.937">
+  <testcase name="user fill up all fields except Email" classname="user should be able to reserve a table online" time="18.853">
     <system-out><![CDATA[
 @regression
 Scenario: user fill up all fields except Email  &amp#27;[90m# src/test/resources/features/reservation.feature:15&amp#27;[0m
@@ -190,49 +112,20 @@ Scenario: user fill up all fields except Email  &amp#27;[90m# src/test/resources
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters name, message and click send&amp#27;[0m &amp#27;[90m# net.seafoodworld.step_definition.ReservationStepDef.userEntersNameMessageAndClickSend()&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser should see warning message&amp#27;[0m          &amp#27;[90m# net.seafoodworld.step_definition.ReservationStepDef.userShouldSeeWarningMessage()&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[[pool-2-thread-2] INFO io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.33.0 (resolved driver for Firefox 118)
-[pool-2-thread-2] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\USER\.cache\selenium\geckodriver\win64\0.33.0\geckodriver.exe
-1698224564338	geckodriver	INFO	Listening on 127.0.0.1:12064
-1698224564847	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "16886" "--remote ... /localhost:16886/,http://[::1]:16886/" "-no-remote" "-profile" "C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofileZMczqG"
-console.warn: services.settings: Ignoring preference override of remote settings server
-console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1698224566980	Marionette	INFO	Marionette enabled
-Dynamically enable window occlusion 0
-1698224567214	Marionette	INFO	Listening on port 63710
-WebDriver BiDi listening on ws://127.0.0.1:16886
-Read port: 63710
-1698224567636	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-DevTools listening on ws://127.0.0.1:16886/devtools/browser/86a04162-222e-45f7-9f31-0a78147cbc19
-JavaScript warning: https://www.google.com/js/th/Hlz_Mxh4zCuFpTIAeBvdZdR70vO27nrP9ghCf57VmoM.js line 2 > eval, line 448: Script terminated by timeout at:
-BK@https://www.google.com/js/th/Hlz_Mxh4zCuFpTIAeBvdZdR70vO27nrP9ghCf57VmoM.js line 2 > eval:448:24743
-M@https://www.google.com/js/th/Hlz_Mxh4zCuFpTIAeBvdZdR70vO27nrP9ghCf57VmoM.js line 2 > eval line 448 > eval line 1 > eval line 1 > eval:1:62
-D.Bu@https://www.google.com/js/th/Hlz_Mxh4zCuFpTIAeBvdZdR70vO27nrP9ghCf57VmoM.js line 2 > eval:448:35562
-db@https://www.google.com/js/th/Hlz_Mxh4zCuFpTIAeBvdZdR70vO27nrP9ghCf57VmoM.js line 2 > eval:448:3104
-AJ.gYh_/<@https://www.google.com/js/th/Hlz_Mxh4zCuFpTIAeBvdZdR70vO27nrP9ghCf57VmoM.js line 2 > eval:448:38168
-tn.prototype.SZ@https://www.youtube.com/s/player/96163992/player_ias.vflset/en_US/base.js:7802:149
-rI.prototype.U_@https://www.youtube.com/s/player/96163992/player_ias.vflset/en_US/base.js:8906:41
-g.k.invoke@https://www.youtube.com/s/player/96163992/player_ias.vflset/en_US/base.js:8897:64
-GKa@https://www.youtube.com/s/player/96163992/player_ias.vflset/en_US/base.js:3963:47
-g.KKa/a.c1a@https://www.youtube.com/s/player/96163992/player_ias.vflset/en_US/base.js:3969:276
-g.LKa@https://www.youtube.com/s/player/96163992/player_ias.vflset/en_US/base.js:3972:167
-g.k.eR@https://www.youtube.com/s/player/96163992/player_ias.vflset/en_US/base.js:12126:77
-g.k.sendAbandonmentPing@https://www.youtube.com/s/player/96163992/player_ias.vflset/en_US/base.js:12015:102
-g.k.sendAbandonmentPing@https://www.youtube.com/s/player/96163992/player_ias.vflset/en_US/base.js:10185:62
-ZT/a.state.j[b]@https://www.youtube.com/s/player/96163992/player_ias.vflset/en_US/base.js:4743:53
-ux/<@https://www.youtube.com/s/player/96163992/www-embed-player.vflset/www-embed-player.js:1822:107
-Gx@https://www.youtube.com/s/player/96163992/www-embed-player.vflset/www-embed-player.js:1857:46
-Kx<@https://www.youtube.com/s/player/96163992/www-embed-player.vflset/www-embed-player.js:1864:183
-Wk/<@https://www.youtube.com/s/player/96163992/www-embed-player.vflset/www-embed-player.js:855:63
-
-console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.seafoodworld.net."
-1698224584141	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:63814
-1698224584146	CDP	WARN	Invalid browser preferences for CDP. Set "fission.webContentIsolationStrategy"to 0 and "fission.bfcacheInParent" to false before Firefox starts.
-1698224584159	Marionette	INFO	Stopped listening on port 63710
-JavaScript error: https://www.seafoodworld.net/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1, line 2: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
-Dynamically enable window occlusion 1
+    <system-err><![CDATA[[pool-2-thread-3] ERROR io.github.bonigarcia.wdm.online.HttpClient - Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_118
+[pool-2-thread-3] WARN io.github.bonigarcia.wdm.versions.VersionDetector - Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_118 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_118)
+[pool-2-thread-3] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\USER\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+Starting ChromeDriver 118.0.5993.70 (e52f33f30b91b4ddfad649acddc39ab570473b86-refs/branch-heads/5993@{#1216}) on port 39585
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Oct 26, 2023 5:57:54 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 118
+Oct 26, 2023 5:57:54 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.8.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="user fill up all fields except text Msg" classname="user should be able to reserve a table online" time="19.337">
+  <testcase name="user fill up all fields except text Msg" classname="user should be able to reserve a table online" time="14.892">
     <system-out><![CDATA[
 @regression
 Scenario: user fill up all fields except text Msg &amp#27;[90m# src/test/resources/features/reservation.feature:19&amp#27;[0m
@@ -240,66 +133,20 @@ Scenario: user fill up all fields except text Msg &amp#27;[90m# src/test/resourc
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters name, email  and click send&amp#27;[0m    &amp#27;[90m# net.seafoodworld.step_definition.ReservationStepDef.userEntersNameEmailAndClickSend()&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser should see message&amp#27;[0m                    &amp#27;[90m# net.seafoodworld.step_definition.ReservationStepDef.user_should_see_message()&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[[pool-2-thread-2] INFO io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.33.0 (resolved driver for Firefox 118)
-[pool-2-thread-2] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\USER\.cache\selenium\geckodriver\win64\0.33.0\geckodriver.exe
-1698224586126	geckodriver	INFO	Listening on 127.0.0.1:41779
-1698224586572	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "5979" "--remote- ... ://localhost:5979/,http://[::1]:5979/" "-no-remote" "-profile" "C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofileGBonO7"
-console.warn: services.settings: Ignoring preference override of remote settings server
-console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1698224587245	Marionette	INFO	Marionette enabled
-Dynamically enable window occlusion 0
-1698224587385	Marionette	INFO	Listening on port 63828
-WebDriver BiDi listening on ws://127.0.0.1:5979
-Read port: 63828
-1698224587758	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-DevTools listening on ws://127.0.0.1:5979/devtools/browser/ee43f4f1-823e-4487-83e6-804488c3e16b
-console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.seafoodworld.net."
-JavaScript warning: https://www.google.com/js/th/Hlz_Mxh4zCuFpTIAeBvdZdR70vO27nrP9ghCf57VmoM.js line 2 > eval line 5390 > eval line 1 > eval line 1 > eval, line 1: Script terminated by timeout at:
-vK@https://www.google.com/js/th/Hlz_Mxh4zCuFpTIAeBvdZdR70vO27nrP9ghCf57VmoM.js line 2 > eval line 5390 > eval line 1 > eval line 1 > eval:1:116
-sg@https://www.google.com/js/th/Hlz_Mxh4zCuFpTIAeBvdZdR70vO27nrP9ghCf57VmoM.js line 2 > eval line 5390 > eval line 1 > eval line 1 > eval:1:43
-Og@https://www.google.com/js/th/Hlz_Mxh4zCuFpTIAeBvdZdR70vO27nrP9ghCf57VmoM.js line 2 > eval line 5390 > eval line 1 > eval line 1 > eval:1:317
-@https://www.google.com/js/th/Hlz_Mxh4zCuFpTIAeBvdZdR70vO27nrP9ghCf57VmoM.js line 2 > eval line 5390 > eval line 1 > eval line 1 > eval:1:112
-xZ@https://www.google.com/js/th/Hlz_Mxh4zCuFpTIAeBvdZdR70vO27nrP9ghCf57VmoM.js line 2 > eval line 5390 > eval line 1 > eval line 1 > eval:1:199
-qV@https://www.google.com/js/th/Hlz_Mxh4zCuFpTIAeBvdZdR70vO27nrP9ghCf57VmoM.js line 2 > eval line 5390 > eval line 1 > eval line 1 > eval:1:45
-b.prototype.S</<@https://www.google.com/js/th/Hlz_Mxh4zCuFpTIAeBvdZdR70vO27nrP9ghCf57VmoM.js line 2 > eval:5390:36362
-Vh@https://www.google.com/js/th/Hlz_Mxh4zCuFpTIAeBvdZdR70vO27nrP9ghCf57VmoM.js line 2 > eval:5390:17264
-P@https://www.google.com/js/th/Hlz_Mxh4zCuFpTIAeBvdZdR70vO27nrP9ghCf57VmoM.js line 2 > eval:5390:10994
-u@https://www.google.com/js/th/Hlz_Mxh4zCuFpTIAeBvdZdR70vO27nrP9ghCf57VmoM.js line 2 > eval:5390:2453
-M@https://www.google.com/js/th/Hlz_Mxh4zCuFpTIAeBvdZdR70vO27nrP9ghCf57VmoM.js line 2 > eval line 5390 > eval line 1 > eval line 1 > eval:1:187
-D.Bu@https://www.google.com/js/th/Hlz_Mxh4zCuFpTIAeBvdZdR70vO27nrP9ghCf57VmoM.js line 2 > eval:5390:35562
-db@https://www.google.com/js/th/Hlz_Mxh4zCuFpTIAeBvdZdR70vO27nrP9ghCf57VmoM.js line 2 > eval:5390:3104
-AJ.gYh_/<@https://www.google.com/js/th/Hlz_Mxh4zCuFpTIAeBvdZdR70vO27nrP9ghCf57VmoM.js line 2 > eval:5390:38168
-tn.prototype.SZ@https://www.youtube.com/s/player/96163992/player_ias.vflset/en_US/base.js:7802:149
-rI.prototype.U_@https://www.youtube.com/s/player/96163992/player_ias.vflset/en_US/base.js:8906:41
-g.k.invoke@https://www.youtube.com/s/player/96163992/player_ias.vflset/en_US/base.js:8897:64
-GKa@https://www.youtube.com/s/player/96163992/player_ias.vflset/en_US/base.js:3963:47
-g.KKa/a.c1a@https://www.youtube.com/s/player/96163992/player_ias.vflset/en_US/base.js:3969:276
-g.LKa@https://www.youtube.com/s/player/96163992/player_ias.vflset/en_US/base.js:3972:167
-g.k.eR@https://www.youtube.com/s/player/96163992/player_ias.vflset/en_US/base.js:12126:77
-g.k.sendAbandonmentPing@https://www.youtube.com/s/player/96163992/player_ias.vflset/en_US/base.js:12015:102
-g.k.sendAbandonmentPing@https://www.youtube.com/s/player/96163992/player_ias.vflset/en_US/base.js:10185:62
-ZT/a.state.j[b]@https://www.youtube.com/s/player/96163992/player_ias.vflset/en_US/base.js:4743:53
-ux/<@https://www.youtube.com/s/player/96163992/www-embed-player.vflset/www-embed-player.js:1822:107
-Gx@https://www.youtube.com/s/player/96163992/www-embed-player.vflset/www-embed-player.js:1857:46
-Kx<@https://www.youtube.com/s/player/96163992/www-embed-player.vflset/www-embed-player.js:1864:183
-Wk/<@https://www.youtube.com/s/player/96163992/www-embed-player.vflset/www-embed-player.js:855:63
-
-1698224602738	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:63897
-1698224602746	CDP	WARN	Invalid browser preferences for CDP. Set "fission.webContentIsolationStrategy"to 0 and "fission.bfcacheInParent" to false before Firefox starts.
-1698224602773	Marionette	INFO	Stopped listening on port 63828
-JavaScript warning: https://connect.facebook.net/en_US/all.js?hash=2e7543c0c61a5b7c7ae2ce521579d7eb, line 22: Script terminated by timeout at:
-bindContext@https://connect.facebook.net/en_US/all.js?hash=2e7543c0c61a5b7c7ae2ce521579d7eb:22:222
-@https://connect.facebook.net/en_US/all.js?hash=2e7543c0c61a5b7c7ae2ce521579d7eb:22:507
-@https://connect.facebook.net/en_US/all.js?hash=2e7543c0c61a5b7c7ae2ce521579d7eb:245:26
-
-JavaScript warning: https://maps.googleapis.com/maps-api-v3/api/js/54/11/common.js, line 211: Script terminated by timeout at:
-e@https://maps.googleapis.com/maps-api-v3/api/js/54/11/common.js:211:381
-
-JavaScript error: https://www.seafoodworld.net/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1, line 2: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
-Dynamically enable window occlusion 1
+    <system-err><![CDATA[[pool-2-thread-3] ERROR io.github.bonigarcia.wdm.online.HttpClient - Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_118
+[pool-2-thread-3] WARN io.github.bonigarcia.wdm.versions.VersionDetector - Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_118 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_118)
+[pool-2-thread-3] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\USER\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+Starting ChromeDriver 118.0.5993.70 (e52f33f30b91b4ddfad649acddc39ab570473b86-refs/branch-heads/5993@{#1216}) on port 22096
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Oct 26, 2023 5:58:12 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 118
+Oct 26, 2023 5:58:12 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.8.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="user does not fill up any fields and click submit" classname="user should be able to reserve a table online" time="13.371">
+  <testcase name="user does not fill up any fields and click submit" classname="user should be able to reserve a table online" time="13.058">
     <system-out><![CDATA[
 @regression
 Scenario: user does not fill up any fields and click submit &amp#27;[90m# src/test/resources/features/reservation.feature:24&amp#27;[0m
@@ -307,34 +154,20 @@ Scenario: user does not fill up any fields and click submit &amp#27;[90m# src/te
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser click send button&amp#27;[0m                               &amp#27;[90m# net.seafoodworld.step_definition.ReservationStepDef.userClickSendButton()&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser should see warning message&amp#27;[0m                      &amp#27;[90m# net.seafoodworld.step_definition.ReservationStepDef.userShouldSeeWarningMessage()&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[[pool-2-thread-2] INFO io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.33.0 (resolved driver for Firefox 118)
-[pool-2-thread-2] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\USER\.cache\selenium\geckodriver\win64\0.33.0\geckodriver.exe
-1698224605390	geckodriver	INFO	Listening on 127.0.0.1:30705
-1698224606035	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "17698" "--remote ... /localhost:17698/,http://[::1]:17698/" "-no-remote" "-profile" "C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofileWDKvpj"
-console.warn: services.settings: Ignoring preference override of remote settings server
-console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1698224606993	Marionette	INFO	Marionette enabled
-Dynamically enable window occlusion 0
-1698224607322	Marionette	INFO	Listening on port 63902
-WebDriver BiDi listening on ws://127.0.0.1:17698
-Read port: 63902
-1698224607833	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-DevTools listening on ws://127.0.0.1:17698/devtools/browser/3688a2d3-37d5-4d22-a7eb-08927a7caf1a
-JavaScript warning: https://www.youtube.com/s/player/96163992/www-embed-player.vflset/www-embed-player.js, line 855: Script terminated by timeout at:
-Wk/<@https://www.youtube.com/s/player/96163992/www-embed-player.vflset/www-embed-player.js:855:47
-
-console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.seafoodworld.net."
-1698224617165	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:63954
-1698224617172	CDP	WARN	Invalid browser preferences for CDP. Set "fission.webContentIsolationStrategy"to 0 and "fission.bfcacheInParent" to false before Firefox starts.
-1698224617181	Marionette	INFO	Stopped listening on port 63902
-JavaScript warning: https://maps.googleapis.com/maps-api-v3/api/js/54/11/onion.js, line 24: Script terminated by timeout at:
-UJa@https://maps.googleapis.com/maps-api-v3/api/js/54/11/onion.js:24:21
-qL.prototype.m@https://maps.googleapis.com/maps-api-v3/api/js/54/11/onion.js:53:526
-
-Dynamically enable window occlusion 1
+    <system-err><![CDATA[[pool-2-thread-3] ERROR io.github.bonigarcia.wdm.online.HttpClient - Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_118
+[pool-2-thread-3] WARN io.github.bonigarcia.wdm.versions.VersionDetector - Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_118 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_118)
+[pool-2-thread-3] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\USER\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+Starting ChromeDriver 118.0.5993.70 (e52f33f30b91b4ddfad649acddc39ab570473b86-refs/branch-heads/5993@{#1216}) on port 1273
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Oct 26, 2023 5:58:27 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 118
+Oct 26, 2023 5:58:27 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.8.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="user can&apos;t send message if email is not correct #1" classname="user should be able to reserve a table online" time="17.51">
+  <testcase name="user can&apos;t send message if email is not correct #1" classname="user should be able to reserve a table online" time="15.686">
     <system-out><![CDATA[
 @regression
 Scenario Outline: user can't send message if email is not correct &amp#27;[90m# src/test/resources/features/reservation.feature:34&amp#27;[0m
@@ -342,56 +175,20 @@ Scenario Outline: user can't send message if email is not correct &amp#27;[90m# 
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters name, &amp#27;[0m&amp#27;[32m&amp#27;[1m"@gmail.com"&amp#27;[0m&amp#27;[32m, message and click send&amp#27;[0m     &amp#27;[90m# net.seafoodworld.step_definition.ReservationStepDef.userEntersNameMessageAndClickSend(java.lang.String)&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser should see warning message&amp#27;[0m                            &amp#27;[90m# net.seafoodworld.step_definition.ReservationStepDef.userShouldSeeWarningMessage()&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[[pool-2-thread-2] INFO io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.33.0 (resolved driver for Firefox 118)
-[pool-2-thread-2] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\USER\.cache\selenium\geckodriver\win64\0.33.0\geckodriver.exe
-1698224618694	geckodriver	INFO	Listening on 127.0.0.1:26973
-1698224618712	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "41564" "--remote ... /localhost:41564/,http://[::1]:41564/" "-no-remote" "-profile" "C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofileVLMRjR"
-console.warn: services.settings: Ignoring preference override of remote settings server
-console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1698224619344	Marionette	INFO	Marionette enabled
-Dynamically enable window occlusion 0
-1698224619468	Marionette	INFO	Listening on port 63962
-WebDriver BiDi listening on ws://127.0.0.1:41564
-Read port: 63962
-1698224619811	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-DevTools listening on ws://127.0.0.1:41564/devtools/browser/b660e617-223c-4ee4-bbee-5b5c3f21524d
-JavaScript error: https://www.seafoodworld.net/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1, line 2: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
-JavaScript warning: https://www.google.com/js/th/Hlz_Mxh4zCuFpTIAeBvdZdR70vO27nrP9ghCf57VmoM.js line 2 > eval, line 6153: Script terminated by timeout at:
-D.X<@https://www.google.com/js/th/Hlz_Mxh4zCuFpTIAeBvdZdR70vO27nrP9ghCf57VmoM.js line 2 > eval:6153:35744
-Gv@https://www.google.com/js/th/Hlz_Mxh4zCuFpTIAeBvdZdR70vO27nrP9ghCf57VmoM.js line 2 > eval:6153:5026
-xZ@https://www.google.com/js/th/Hlz_Mxh4zCuFpTIAeBvdZdR70vO27nrP9ghCf57VmoM.js line 2 > eval line 6153 > eval line 1 > eval line 1 > eval:1:183
-qV@https://www.google.com/js/th/Hlz_Mxh4zCuFpTIAeBvdZdR70vO27nrP9ghCf57VmoM.js line 2 > eval line 6153 > eval line 1 > eval line 1 > eval:1:45
-b.prototype.S</<@https://www.google.com/js/th/Hlz_Mxh4zCuFpTIAeBvdZdR70vO27nrP9ghCf57VmoM.js line 2 > eval:6153:36362
-Vh@https://www.google.com/js/th/Hlz_Mxh4zCuFpTIAeBvdZdR70vO27nrP9ghCf57VmoM.js line 2 > eval:6153:17264
-P@https://www.google.com/js/th/Hlz_Mxh4zCuFpTIAeBvdZdR70vO27nrP9ghCf57VmoM.js line 2 > eval:6153:10994
-u@https://www.google.com/js/th/Hlz_Mxh4zCuFpTIAeBvdZdR70vO27nrP9ghCf57VmoM.js line 2 > eval:6153:2453
-M@https://www.google.com/js/th/Hlz_Mxh4zCuFpTIAeBvdZdR70vO27nrP9ghCf57VmoM.js line 2 > eval line 6153 > eval line 1 > eval line 1 > eval:1:187
-D.Bu@https://www.google.com/js/th/Hlz_Mxh4zCuFpTIAeBvdZdR70vO27nrP9ghCf57VmoM.js line 2 > eval:6153:35562
-db@https://www.google.com/js/th/Hlz_Mxh4zCuFpTIAeBvdZdR70vO27nrP9ghCf57VmoM.js line 2 > eval:6153:3104
-AJ.gYh_/<@https://www.google.com/js/th/Hlz_Mxh4zCuFpTIAeBvdZdR70vO27nrP9ghCf57VmoM.js line 2 > eval:6153:38168
-tn.prototype.SZ@https://www.youtube.com/s/player/96163992/player_ias.vflset/en_US/base.js:7802:149
-rI.prototype.U_@https://www.youtube.com/s/player/96163992/player_ias.vflset/en_US/base.js:8906:41
-g.k.invoke@https://www.youtube.com/s/player/96163992/player_ias.vflset/en_US/base.js:8897:64
-GKa@https://www.youtube.com/s/player/96163992/player_ias.vflset/en_US/base.js:3963:47
-g.KKa/a.c1a@https://www.youtube.com/s/player/96163992/player_ias.vflset/en_US/base.js:3969:276
-g.LKa@https://www.youtube.com/s/player/96163992/player_ias.vflset/en_US/base.js:3972:167
-g.k.eR@https://www.youtube.com/s/player/96163992/player_ias.vflset/en_US/base.js:12126:77
-g.k.sendAbandonmentPing@https://www.youtube.com/s/player/96163992/player_ias.vflset/en_US/base.js:12015:102
-g.k.sendAbandonmentPing@https://www.youtube.com/s/player/96163992/player_ias.vflset/en_US/base.js:10185:62
-ZT/a.state.j[b]@https://www.youtube.com/s/player/96163992/player_ias.vflset/en_US/base.js:4743:53
-ux/<@https://www.youtube.com/s/player/96163992/www-embed-player.vflset/www-embed-player.js:1822:107
-Gx@https://www.youtube.com/s/player/96163992/www-embed-player.vflset/www-embed-player.js:1857:46
-Kx<@https://www.youtube.com/s/player/96163992/www-embed-player.vflset/www-embed-player.js:1864:183
-Wk/<@https://www.youtube.com/s/player/96163992/www-embed-player.vflset/www-embed-player.js:855:63
-
-JavaScript error: https://www.seafoodworld.net/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1, line 2: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
-1698224634695	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:64084
-1698224634700	CDP	WARN	Invalid browser preferences for CDP. Set "fission.webContentIsolationStrategy"to 0 and "fission.bfcacheInParent" to false before Firefox starts.
-1698224634712	Marionette	INFO	Stopped listening on port 63962
-Dynamically enable window occlusion 1
+    <system-err><![CDATA[[pool-2-thread-3] ERROR io.github.bonigarcia.wdm.online.HttpClient - Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_118
+[pool-2-thread-3] WARN io.github.bonigarcia.wdm.versions.VersionDetector - Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_118 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_118)
+[pool-2-thread-3] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\USER\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+Starting ChromeDriver 118.0.5993.70 (e52f33f30b91b4ddfad649acddc39ab570473b86-refs/branch-heads/5993@{#1216}) on port 47259
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Oct 26, 2023 5:58:40 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 118
+Oct 26, 2023 5:58:40 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.8.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="user can&apos;t send message if email is not correct #2" classname="user should be able to reserve a table online" time="15.482">
+  <testcase name="user can&apos;t send message if email is not correct #2" classname="user should be able to reserve a table online" time="27.969">
     <system-out><![CDATA[
 @regression
 Scenario Outline: user can't send message if email is not correct &amp#27;[90m# src/test/resources/features/reservation.feature:35&amp#27;[0m
@@ -399,55 +196,63 @@ Scenario Outline: user can't send message if email is not correct &amp#27;[90m# 
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters name, &amp#27;[0m&amp#27;[32m&amp#27;[1m"name@.com"&amp#27;[0m&amp#27;[32m, message and click send&amp#27;[0m      &amp#27;[90m# net.seafoodworld.step_definition.ReservationStepDef.userEntersNameMessageAndClickSend(java.lang.String)&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser should see warning message&amp#27;[0m                            &amp#27;[90m# net.seafoodworld.step_definition.ReservationStepDef.userShouldSeeWarningMessage()&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[[pool-2-thread-2] INFO io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.33.0 (resolved driver for Firefox 118)
-[pool-2-thread-2] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\USER\.cache\selenium\geckodriver\win64\0.33.0\geckodriver.exe
-1698224636204	geckodriver	INFO	Listening on 127.0.0.1:11158
-1698224636219	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "47443" "--remote ... /localhost:47443/,http://[::1]:47443/" "-no-remote" "-profile" "C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofileV9yMs0"
-console.warn: services.settings: Ignoring preference override of remote settings server
-console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1698224636766	Marionette	INFO	Marionette enabled
-Dynamically enable window occlusion 0
-1698224636890	Marionette	INFO	Listening on port 64108
-WebDriver BiDi listening on ws://127.0.0.1:47443
-Read port: 64108
-1698224637325	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-DevTools listening on ws://127.0.0.1:47443/devtools/browser/d6aa2e29-051f-44c2-aea7-98559518fbdd
-JavaScript error: https://www.seafoodworld.net/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1, line 2: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
-JavaScript warning: https://www.youtube.com/s/player/96163992/www-embed-player.vflset/www-embed-player.js, line 855: Script terminated by timeout at:
-Wk/<@https://www.youtube.com/s/player/96163992/www-embed-player.vflset/www-embed-player.js:855:47
-
-JavaScript error: https://www.seafoodworld.net/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1, line 2: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
-1698224650355	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:64208
-1698224650359	CDP	WARN	Invalid browser preferences for CDP. Set "fission.webContentIsolationStrategy"to 0 and "fission.bfcacheInParent" to false before Firefox starts.
-1698224650367	Marionette	INFO	Stopped listening on port 64108
-JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/y5/r/jSKpmn54XDE.js?_nc_x=Ij3Wp8lg5Kz, line 56: Script terminated by timeout at:
-j.autoHeight/<@https://static.xx.fbcdn.net/rsrc.php/v3/y5/r/jSKpmn54XDE.js?_nc_x=Ij3Wp8lg5Kz:56:1091
-resize@https://static.xx.fbcdn.net/rsrc.php/v3/y5/r/jSKpmn54XDE.js?_nc_x=Ij3Wp8lg5Kz:56:631
-
-Dynamically enable window occlusion 1
+    <system-err><![CDATA[[pool-2-thread-3] ERROR io.github.bonigarcia.wdm.online.HttpClient - Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_118
+[pool-2-thread-3] WARN io.github.bonigarcia.wdm.versions.VersionDetector - Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_118 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_118)
+[pool-2-thread-3] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\USER\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+Starting ChromeDriver 118.0.5993.70 (e52f33f30b91b4ddfad649acddc39ab570473b86-refs/branch-heads/5993@{#1216}) on port 8408
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Oct 26, 2023 5:59:06 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 118
+Oct 26, 2023 5:59:06 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.8.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="user can&apos;t send message if email is not correct #3" classname="user should be able to reserve a table online" time="10.319">
-    <error message="Origin element is not displayed&#10;Build info: version: &apos;4.8.1&apos;, revision: &apos;8ebccac989&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Command: [6b7c0c06-c03a-40f0-99bd-46c62346e84b, actions {actions=[org.openqa.selenium.interactions.Sequence@369efb5c]}]&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.2, moz:accessibilityChecks: false, moz:buildID: 20231009140911, moz:debuggerAddress: 127.0.0.1:26272, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 6364, moz:profile: C:\Users\USER\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:26272/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 6b7c0c06-c03a-40f0-99bd-46c62346e84b" type="org.openqa.selenium.interactions.MoveTargetOutOfBoundsException"><![CDATA[org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: 
-Origin element is not displayed
-Build info: version: '4.8.1', revision: '8ebccac989'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [6b7c0c06-c03a-40f0-99bd-46c62346e84b, actions {actions=[org.openqa.selenium.interactions.Sequence@369efb5c]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.2, moz:accessibilityChecks: false, moz:buildID: 20231009140911, moz:debuggerAddress: 127.0.0.1:26272, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 6364, moz:profile: C:\Users\USER\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:26272/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6b7c0c06-c03a-40f0-99bd-46c62346e84b
-]]></error>
+  <testcase name="user can&apos;t send message if email is not correct #3" classname="user should be able to reserve a table online" time="14.108">
     <system-out><![CDATA[
 @regression
 Scenario Outline: user can't send message if email is not correct &amp#27;[90m# src/test/resources/features/reservation.feature:36&amp#27;[0m
-  &amp#27;[31mGiven &amp#27;[0m&amp#27;[31muser at the contact page&amp#27;[0m                                  &amp#27;[90m# net.seafoodworld.step_definition.ReservationStepDef.user_at_the_contact_page()&amp#27;[0m
-      &amp#27;[31morg.openqa.selenium.interactions.MoveTargetOutOfBoundsException: Origin element is not displayed
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser at the contact page&amp#27;[0m                                  &amp#27;[90m# net.seafoodworld.step_definition.ReservationStepDef.user_at_the_contact_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters name, &amp#27;[0m&amp#27;[32m&amp#27;[1m"namegmail.com"&amp#27;[0m&amp#27;[32m, message and click send&amp#27;[0m  &amp#27;[90m# net.seafoodworld.step_definition.ReservationStepDef.userEntersNameMessageAndClickSend(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser should see warning message&amp#27;[0m                            &amp#27;[90m# net.seafoodworld.step_definition.ReservationStepDef.userShouldSeeWarningMessage()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[[pool-2-thread-3] ERROR io.github.bonigarcia.wdm.online.HttpClient - Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_118
+[pool-2-thread-3] WARN io.github.bonigarcia.wdm.versions.VersionDetector - Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_118 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_118)
+[pool-2-thread-3] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\USER\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+Starting ChromeDriver 118.0.5993.70 (e52f33f30b91b4ddfad649acddc39ab570473b86-refs/branch-heads/5993@{#1216}) on port 35521
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Oct 26, 2023 5:59:23 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 118
+Oct 26, 2023 5:59:23 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.8.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="user can&apos;t send message if email is not correct #4" classname="user should be able to reserve a table online" time="9.055">
+    <error message="element not interactable: https://www.seafoodworld.net/contact/ has no size and location&#10;  (Session info: chrome=118.0.5993.118)&#10;Build info: version: &apos;4.8.1&apos;, revision: &apos;8ebccac989&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [408b07d08459bff06050b0cc5fa2f55c, actions {actions=[org.openqa.selenium.interactions.Sequence@4459b316]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64722}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64722/devtoo..., se:cdpVersion: 118.0.5993.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 408b07d08459bff06050b0cc5fa2f55c" type="org.openqa.selenium.ElementNotInteractableException"><![CDATA[org.openqa.selenium.ElementNotInteractableException: 
+element not interactable: https://www.seafoodworld.net/contact/ has no size and location
+  (Session info: chrome=118.0.5993.118)
 Build info: version: '4.8.1', revision: '8ebccac989'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [6b7c0c06-c03a-40f0-99bd-46c62346e84b, actions {actions=[org.openqa.selenium.interactions.Sequence@369efb5c]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.2, moz:accessibilityChecks: false, moz:buildID: 20231009140911, moz:debuggerAddress: 127.0.0.1:26272, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 6364, moz:profile: C:\Users\USER\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:26272/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6b7c0c06-c03a-40f0-99bd-46c62346e84b
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [408b07d08459bff06050b0cc5fa2f55c, actions {actions=[org.openqa.selenium.interactions.Sequence@4459b316]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64722}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64722/devtoo..., se:cdpVersion: 118.0.5993.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 408b07d08459bff06050b0cc5fa2f55c
+]]></error>
+    <system-out><![CDATA[
+@regression
+Scenario Outline: user can't send message if email is not correct  &amp#27;[90m# src/test/resources/features/reservation.feature:37&amp#27;[0m
+  &amp#27;[31mGiven &amp#27;[0m&amp#27;[31muser at the contact page&amp#27;[0m                                   &amp#27;[90m# net.seafoodworld.step_definition.ReservationStepDef.user_at_the_contact_page()&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.ElementNotInteractableException: element not interactable: https://www.seafoodworld.net/contact/ has no size and location
+  (Session info: chrome=118.0.5993.118)
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [408b07d08459bff06050b0cc5fa2f55c, actions {actions=[org.openqa.selenium.interactions.Sequence@4459b316]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64722}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64722/devtoo..., se:cdpVersion: 118.0.5993.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 408b07d08459bff06050b0cc5fa2f55c
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -462,85 +267,29 @@ Session ID: 6b7c0c06-c03a-40f0-99bd-46c62346e84b
 	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:611)
 	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:567)
 	at org.openqa.selenium.interactions.Actions.perform(Actions.java:536)
-	at net.seafoodworld.step_definition.ReservationStepDef.user_at_the_contact_page(ReservationStepDef.java:35)
+	at net.seafoodworld.step_definition.ReservationStepDef.user_at_the_contact_page(ReservationStepDef.java:37)
 	at вњЅ.user at the contact page(file:///C:/Users/USER/WORKSPACE/seafood-world-project/src/test/resources/features/reservation.feature:4)
 &amp#27;[0m
-  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36muser enters name, &amp#27;[0m&amp#27;[36m&amp#27;[1m"namegmail.com"&amp#27;[0m&amp#27;[36m, message and click send&amp#27;[0m  &amp#27;[90m# net.seafoodworld.step_definition.ReservationStepDef.userEntersNameMessageAndClickSend(java.lang.String)&amp#27;[0m
-  &amp#27;[36mThen &amp#27;[0m&amp#27;[36muser should see warning message&amp#27;[0m                            &amp#27;[90m# net.seafoodworld.step_definition.ReservationStepDef.userShouldSeeWarningMessage()&amp#27;[0m
-
-    Embedding Attached img [image/png 178732 bytes]
-
-]]></system-out>
-    <system-err><![CDATA[[pool-2-thread-2] INFO io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.33.0 (resolved driver for Firefox 118)
-[pool-2-thread-2] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\USER\.cache\selenium\geckodriver\win64\0.33.0\geckodriver.exe
-1698224651701	geckodriver	INFO	Listening on 127.0.0.1:39298
-1698224652237	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "26272" "--remote ... /localhost:26272/,http://[::1]:26272/" "-no-remote" "-profile" "C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofilem7z9wh"
-console.warn: services.settings: Ignoring preference override of remote settings server
-console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1698224652688	Marionette	INFO	Marionette enabled
-Dynamically enable window occlusion 0
-1698224652782	Marionette	INFO	Listening on port 64230
-WebDriver BiDi listening on ws://127.0.0.1:26272
-Read port: 64230
-1698224653011	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-DevTools listening on ws://127.0.0.1:26272/devtools/browser/4cd64cc2-5907-4012-91aa-501b197e0d52
-1698224660605	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:64303
-1698224660609	CDP	WARN	Invalid browser preferences for CDP. Set "fission.webContentIsolationStrategy"to 0 and "fission.bfcacheInParent" to false before Firefox starts.
-1698224660613	Marionette	INFO	Stopped listening on port 64230
-JavaScript warning: https://www.youtube.com/s/player/96163992/www-embed-player.vflset/www-embed-player.js, line 1063: Script terminated by timeout at:
-Tn/this.done</<@https://www.youtube.com/s/player/96163992/www-embed-player.vflset/www-embed-player.js:1063:149
-
-Dynamically enable window occlusion 1
-JavaScript warning: https://www.google.com/js/th/Hlz_Mxh4zCuFpTIAeBvdZdR70vO27nrP9ghCf57VmoM.js line 2 > eval line 3865 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
-]]></system-err>
-  </testcase>
-  <testcase name="user can&apos;t send message if email is not correct #4" classname="user should be able to reserve a table online" time="10">
-    <failure message="expected:&lt;[Seafood World Seafood Buffet Contact]&gt; but was:&lt;[]&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<[Seafood World Seafood Buffet Contact]> but was:<[]>
-]]></failure>
-    <system-out><![CDATA[
-@regression
-Scenario Outline: user can't send message if email is not correct  &amp#27;[90m# src/test/resources/features/reservation.feature:37&amp#27;[0m
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser at the contact page&amp#27;[0m                                   &amp#27;[90m# net.seafoodworld.step_definition.ReservationStepDef.user_at_the_contact_page()&amp#27;[0m
-  &amp#27;[31mWhen &amp#27;[0m&amp#27;[31muser enters name, &amp#27;[0m&amp#27;[31m&amp#27;[1m"name@@gmail.com"&amp#27;[0m&amp#27;[31m, message and click send&amp#27;[0m &amp#27;[90m# net.seafoodworld.step_definition.ReservationStepDef.userEntersNameMessageAndClickSend(java.lang.String)&amp#27;[0m
-      &amp#27;[31morg.junit.ComparisonFailure: expected:<[Seafood World Seafood Buffet Contact]> but was:<[]>
-	at org.junit.Assert.assertEquals(Assert.java:117)
-	at org.junit.Assert.assertEquals(Assert.java:146)
-	at net.seafoodworld.step_definition.ReservationStepDef.userEntersNameMessageAndClickSend(ReservationStepDef.java:140)
-	at вњЅ.user enters name, "name@@gmail.com", message and click send(file:///C:/Users/USER/WORKSPACE/seafood-world-project/src/test/resources/features/reservation.feature:30)
-&amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36muser enters name, &amp#27;[0m&amp#27;[36m&amp#27;[1m"name@@gmail.com"&amp#27;[0m&amp#27;[36m, message and click send&amp#27;[0m &amp#27;[90m# net.seafoodworld.step_definition.ReservationStepDef.userEntersNameMessageAndClickSend(java.lang.String)&amp#27;[0m
   &amp#27;[36mThen &amp#27;[0m&amp#27;[36muser should see warning message&amp#27;[0m                             &amp#27;[90m# net.seafoodworld.step_definition.ReservationStepDef.userShouldSeeWarningMessage()&amp#27;[0m
 
-    Embedding Attached img [image/png 107871 bytes]
+    Embedding Attached img [image/png 886243 bytes]
 
 ]]></system-out>
-    <system-err><![CDATA[[pool-2-thread-2] INFO io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.33.0 (resolved driver for Firefox 118)
-[pool-2-thread-2] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\USER\.cache\selenium\geckodriver\win64\0.33.0\geckodriver.exe
-1698224662010	geckodriver	INFO	Listening on 127.0.0.1:19530
-1698224662041	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "3257" "--remote- ... ://localhost:3257/,http://[::1]:3257/" "-no-remote" "-profile" "C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofilevUNQXK"
-console.warn: services.settings: Ignoring preference override of remote settings server
-console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1698224662526	Marionette	INFO	Marionette enabled
-Dynamically enable window occlusion 0
-1698224662627	Marionette	INFO	Listening on port 64308
-WebDriver BiDi listening on ws://127.0.0.1:3257
-Read port: 64308
-1698224662937	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-DevTools listening on ws://127.0.0.1:3257/devtools/browser/2eff7bc3-4d63-4444-97cd-43a87848ceb5
-JavaScript warning: https://www.youtube.com/s/player/96163992/player_ias.vflset/en_US/base.js, line 155: Script terminated by timeout at:
-g.Ka@https://www.youtube.com/s/player/96163992/player_ias.vflset/en_US/base.js:155:14
-ZT/a.state.j[b]@https://www.youtube.com/s/player/96163992/player_ias.vflset/en_US/base.js:4743:66
-ux/<@https://www.youtube.com/s/player/96163992/www-embed-player.vflset/www-embed-player.js:1822:107
-Gx@https://www.youtube.com/s/player/96163992/www-embed-player.vflset/www-embed-player.js:1857:46
-Kx<@https://www.youtube.com/s/player/96163992/www-embed-player.vflset/www-embed-player.js:1864:183
-Wk/<@https://www.youtube.com/s/player/96163992/www-embed-player.vflset/www-embed-player.js:855:63
-
-1698224670648	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:64358
-1698224670653	CDP	WARN	Invalid browser preferences for CDP. Set "fission.webContentIsolationStrategy"to 0 and "fission.bfcacheInParent" to false before Firefox starts.
-1698224670666	Marionette	INFO	Stopped listening on port 64308
-Dynamically enable window occlusion 1
+    <system-err><![CDATA[[pool-2-thread-3] ERROR io.github.bonigarcia.wdm.online.HttpClient - Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_118
+[pool-2-thread-3] WARN io.github.bonigarcia.wdm.versions.VersionDetector - Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_118 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_118)
+[pool-2-thread-3] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\USER\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+Starting ChromeDriver 118.0.5993.70 (e52f33f30b91b4ddfad649acddc39ab570473b86-refs/branch-heads/5993@{#1216}) on port 20251
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Oct 26, 2023 5:59:37 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 118
+Oct 26, 2023 5:59:37 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.8.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="user can&apos;t send message if email is not correct #5" classname="user should be able to reserve a table online" time="14.931">
+  <testcase name="user can&apos;t send message if email is not correct #5" classname="user should be able to reserve a table online" time="16.087">
     <system-out><![CDATA[
 @regression
 Scenario Outline: user can't send message if email is not correct  &amp#27;[90m# src/test/resources/features/reservation.feature:38&amp#27;[0m
@@ -548,35 +297,20 @@ Scenario Outline: user can't send message if email is not correct  &amp#27;[90m#
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters name, &amp#27;[0m&amp#27;[32m&amp#27;[1m"name@gmail.com."&amp#27;[0m&amp#27;[32m, message and click send&amp#27;[0m &amp#27;[90m# net.seafoodworld.step_definition.ReservationStepDef.userEntersNameMessageAndClickSend(java.lang.String)&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser should see warning message&amp#27;[0m                             &amp#27;[90m# net.seafoodworld.step_definition.ReservationStepDef.userShouldSeeWarningMessage()&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[[pool-2-thread-2] INFO io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.33.0 (resolved driver for Firefox 118)
-[pool-2-thread-2] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\USER\.cache\selenium\geckodriver\win64\0.33.0\geckodriver.exe
-1698224672001	geckodriver	INFO	Listening on 127.0.0.1:13231
-1698224672023	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "39468" "--remote ... /localhost:39468/,http://[::1]:39468/" "-no-remote" "-profile" "C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofile3yywCs"
-console.warn: services.settings: Ignoring preference override of remote settings server
-console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1698224672456	Marionette	INFO	Marionette enabled
-Dynamically enable window occlusion 0
-1698224672549	Marionette	INFO	Listening on port 64363
-WebDriver BiDi listening on ws://127.0.0.1:39468
-Read port: 64363
-1698224672772	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-DevTools listening on ws://127.0.0.1:39468/devtools/browser/3691175f-cd33-4ee8-a835-bfaba545b979
-JavaScript warning: https://www.youtube.com/s/player/96163992/www-embed-player.vflset/www-embed-player.js, line 855: Script terminated by timeout at:
-Wk/<@https://www.youtube.com/s/player/96163992/www-embed-player.vflset/www-embed-player.js:855:47
-
-console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.seafoodworld.net."
-1698224685124	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:64415
-1698224685135	CDP	WARN	Invalid browser preferences for CDP. Set "fission.webContentIsolationStrategy"to 0 and "fission.bfcacheInParent" to false before Firefox starts.
-1698224685261	Marionette	INFO	Stopped listening on port 64363
-JavaScript warning: https://maps.googleapis.com/maps-api-v3/api/js/54/11/common.js, line 211: Script terminated by timeout at:
-show/this.g</</<@https://maps.googleapis.com/maps-api-v3/api/js/54/11/common.js:211:296
-
-JavaScript error: https://www.seafoodworld.net/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1, line 2: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
-Dynamically enable window occlusion 1
-JavaScript error: https://maps.googleapis.com/maps/api/js?client=google-maps-embed&paint_origin=&libraries=geometry,search&v=3.exp&language=en&region=us&callback=onApiLoad, line 151: Error: Could not load "controls".
+    <system-err><![CDATA[[pool-2-thread-3] ERROR io.github.bonigarcia.wdm.online.HttpClient - Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_118
+[pool-2-thread-3] WARN io.github.bonigarcia.wdm.versions.VersionDetector - Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_118 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_118)
+[pool-2-thread-3] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\USER\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+Starting ChromeDriver 118.0.5993.70 (e52f33f30b91b4ddfad649acddc39ab570473b86-refs/branch-heads/5993@{#1216}) on port 38335
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Oct 26, 2023 5:59:47 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 118
+Oct 26, 2023 5:59:47 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.8.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="user can&apos;t send message if email is not correct #6" classname="user should be able to reserve a table online" time="13.856">
+  <testcase name="user can&apos;t send message if email is not correct #6" classname="user should be able to reserve a table online" time="21.043">
     <system-out><![CDATA[
 @regression
 Scenario Outline: user can't send message if email is not correct      &amp#27;[90m# src/test/resources/features/reservation.feature:39&amp#27;[0m
@@ -584,30 +318,20 @@ Scenario Outline: user can't send message if email is not correct      &amp#27;[
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters name, &amp#27;[0m&amp#27;[32m&amp#27;[1m"name@name@gmail.com"&amp#27;[0m&amp#27;[32m, message and click send&amp#27;[0m &amp#27;[90m# net.seafoodworld.step_definition.ReservationStepDef.userEntersNameMessageAndClickSend(java.lang.String)&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser should see warning message&amp#27;[0m                                 &amp#27;[90m# net.seafoodworld.step_definition.ReservationStepDef.userShouldSeeWarningMessage()&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[[pool-2-thread-2] INFO io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.33.0 (resolved driver for Firefox 118)
-[pool-2-thread-2] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\USER\.cache\selenium\geckodriver\win64\0.33.0\geckodriver.exe
-1698224686940	geckodriver	INFO	Listening on 127.0.0.1:22842
-1698224687502	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "27020" "--remote ... /localhost:27020/,http://[::1]:27020/" "-no-remote" "-profile" "C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofilehL6ASI"
-console.warn: services.settings: Ignoring preference override of remote settings server
-console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1698224688011	Marionette	INFO	Marionette enabled
-Dynamically enable window occlusion 0
-1698224688112	Marionette	INFO	Listening on port 64422
-WebDriver BiDi listening on ws://127.0.0.1:27020
-Read port: 64422
-1698224688415	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-DevTools listening on ws://127.0.0.1:27020/devtools/browser/44e2a846-e9af-40cf-8b35-d7e91de95a40
-JavaScript warning: https://www.youtube.com/s/player/96163992/www-embed-player.vflset/www-embed-player.js, line 855: Script terminated by timeout at:
-Wk/<@https://www.youtube.com/s/player/96163992/www-embed-player.vflset/www-embed-player.js:855:47
-
-JavaScript error: https://www.seafoodworld.net/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1, line 2: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
-1698224699270	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:63425
-1698224699274	CDP	WARN	Invalid browser preferences for CDP. Set "fission.webContentIsolationStrategy"to 0 and "fission.bfcacheInParent" to false before Firefox starts.
-1698224699275	Marionette	INFO	Stopped listening on port 64422
-Dynamically enable window occlusion 1
+    <system-err><![CDATA[[pool-2-thread-3] ERROR io.github.bonigarcia.wdm.online.HttpClient - Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_118
+[pool-2-thread-3] WARN io.github.bonigarcia.wdm.versions.VersionDetector - Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_118 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_118)
+[pool-2-thread-3] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\USER\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+Starting ChromeDriver 118.0.5993.70 (e52f33f30b91b4ddfad649acddc39ab570473b86-refs/branch-heads/5993@{#1216}) on port 41911
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Oct 26, 2023 6:00:03 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 118
+Oct 26, 2023 6:00:03 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.8.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="user can&apos;t send message if email is not correct #7" classname="user should be able to reserve a table online" time="16.95">
+  <testcase name="user can&apos;t send message if email is not correct #7" classname="user should be able to reserve a table online" time="16.779">
     <system-out><![CDATA[
 @regression
 Scenario Outline: user can't send message if email is not correct &amp#27;[90m# src/test/resources/features/reservation.feature:40&amp#27;[0m
@@ -615,100 +339,79 @@ Scenario Outline: user can't send message if email is not correct &amp#27;[90m# 
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters name, &amp#27;[0m&amp#27;[32m&amp#27;[1m"name@gmail"&amp#27;[0m&amp#27;[32m, message and click send&amp#27;[0m     &amp#27;[90m# net.seafoodworld.step_definition.ReservationStepDef.userEntersNameMessageAndClickSend(java.lang.String)&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser should see warning message&amp#27;[0m                            &amp#27;[90m# net.seafoodworld.step_definition.ReservationStepDef.userShouldSeeWarningMessage()&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[[pool-2-thread-2] INFO io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.33.0 (resolved driver for Firefox 118)
-[pool-2-thread-2] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\USER\.cache\selenium\geckodriver\win64\0.33.0\geckodriver.exe
-1698224700797	geckodriver	INFO	Listening on 127.0.0.1:5623
-1698224701427	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "31907" "--remote ... /localhost:31907/,http://[::1]:31907/" "-no-remote" "-profile" "C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofilebNj9dK"
-console.warn: services.settings: Ignoring preference override of remote settings server
-console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1698224703017	Marionette	INFO	Marionette enabled
-Dynamically enable window occlusion 0
-1698224703609	Marionette	INFO	Listening on port 63434
-WebDriver BiDi listening on ws://127.0.0.1:31907
-Read port: 63434
-1698224704349	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-DevTools listening on ws://127.0.0.1:31907/devtools/browser/61f0ada1-fb14-47ff-a9ae-baf628911793
-JavaScript warning: https://www.google.com/js/th/Hlz_Mxh4zCuFpTIAeBvdZdR70vO27nrP9ghCf57VmoM.js line 2 > eval line 893 > eval line 1 > eval line 1 > eval, line 1: Script terminated by timeout at:
-k@https://www.google.com/js/th/Hlz_Mxh4zCuFpTIAeBvdZdR70vO27nrP9ghCf57VmoM.js line 2 > eval line 893 > eval line 1 > eval line 1 > eval:1:24
-@https://www.google.com/js/th/Hlz_Mxh4zCuFpTIAeBvdZdR70vO27nrP9ghCf57VmoM.js line 2 > eval line 893 > eval line 1 > eval line 1 > eval:1:26
-xZ@https://www.google.com/js/th/Hlz_Mxh4zCuFpTIAeBvdZdR70vO27nrP9ghCf57VmoM.js line 2 > eval line 893 > eval line 1 > eval line 1 > eval:1:199
-qV@https://www.google.com/js/th/Hlz_Mxh4zCuFpTIAeBvdZdR70vO27nrP9ghCf57VmoM.js line 2 > eval line 893 > eval line 1 > eval line 1 > eval:1:45
-b.prototype.S</<@https://www.google.com/js/th/Hlz_Mxh4zCuFpTIAeBvdZdR70vO27nrP9ghCf57VmoM.js line 2 > eval:893:36362
-Vh@https://www.google.com/js/th/Hlz_Mxh4zCuFpTIAeBvdZdR70vO27nrP9ghCf57VmoM.js line 2 > eval:893:17264
-P@https://www.google.com/js/th/Hlz_Mxh4zCuFpTIAeBvdZdR70vO27nrP9ghCf57VmoM.js line 2 > eval:893:10994
-u@https://www.google.com/js/th/Hlz_Mxh4zCuFpTIAeBvdZdR70vO27nrP9ghCf57VmoM.js line 2 > eval:893:2453
-M@https://www.google.com/js/th/Hlz_Mxh4zCuFpTIAeBvdZdR70vO27nrP9ghCf57VmoM.js line 2 > eval line 893 > eval line 1 > eval line 1 > eval:1:187
-D.Bu@https://www.google.com/js/th/Hlz_Mxh4zCuFpTIAeBvdZdR70vO27nrP9ghCf57VmoM.js line 2 > eval:893:35562
-db@https://www.google.com/js/th/Hlz_Mxh4zCuFpTIAeBvdZdR70vO27nrP9ghCf57VmoM.js line 2 > eval:893:3104
-AJ.gYh_/<@https://www.google.com/js/th/Hlz_Mxh4zCuFpTIAeBvdZdR70vO27nrP9ghCf57VmoM.js line 2 > eval:893:38168
-tn.prototype.SZ@https://www.youtube.com/s/player/96163992/player_ias.vflset/en_US/base.js:7802:149
-rI.prototype.U_@https://www.youtube.com/s/player/96163992/player_ias.vflset/en_US/base.js:8906:41
-g.k.invoke@https://www.youtube.com/s/player/96163992/player_ias.vflset/en_US/base.js:8897:64
-GKa@https://www.youtube.com/s/player/96163992/player_ias.vflset/en_US/base.js:3963:47
-g.KKa/a.c1a@https://www.youtube.com/s/player/96163992/player_ias.vflset/en_US/base.js:3969:276
-g.LKa@https://www.youtube.com/s/player/96163992/player_ias.vflset/en_US/base.js:3972:167
-g.k.eR@https://www.youtube.com/s/player/96163992/player_ias.vflset/en_US/base.js:12126:77
-g.k.sendAbandonmentPing@https://www.youtube.com/s/player/96163992/player_ias.vflset/en_US/base.js:12015:102
-g.k.sendAbandonmentPing@https://www.youtube.com/s/player/96163992/player_ias.vflset/en_US/base.js:10185:62
-ZT/a.state.j[b]@https://www.youtube.com/s/player/96163992/player_ias.vflset/en_US/base.js:4743:53
-ux/<@https://www.youtube.com/s/player/96163992/www-embed-player.vflset/www-embed-player.js:1822:107
-Gx@https://www.youtube.com/s/player/96163992/www-embed-player.vflset/www-embed-player.js:1857:46
-Kx<@https://www.youtube.com/s/player/96163992/www-embed-player.vflset/www-embed-player.js:1864:183
-Wk/<@https://www.youtube.com/s/player/96163992/www-embed-player.vflset/www-embed-player.js:855:63
-
-JavaScript error: https://www.seafoodworld.net/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1, line 2: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
-1698224716150	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:63505
-1698224716156	CDP	WARN	Invalid browser preferences for CDP. Set "fission.webContentIsolationStrategy"to 0 and "fission.bfcacheInParent" to false before Firefox starts.
-1698224716166	Marionette	INFO	Stopped listening on port 63434
-JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3/y5/r/jSKpmn54XDE.js?_nc_x=Ij3Wp8lg5Kz, line 56: Script terminated by timeout at:
-j.autoHeight/<@https://static.xx.fbcdn.net/rsrc.php/v3/y5/r/jSKpmn54XDE.js?_nc_x=Ij3Wp8lg5Kz:56:1091
-resize@https://static.xx.fbcdn.net/rsrc.php/v3/y5/r/jSKpmn54XDE.js?_nc_x=Ij3Wp8lg5Kz:56:631
-
-Dynamically enable window occlusion 1
+    <system-err><![CDATA[[pool-2-thread-3] ERROR io.github.bonigarcia.wdm.online.HttpClient - Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_118
+[pool-2-thread-3] WARN io.github.bonigarcia.wdm.versions.VersionDetector - Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_118 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_118)
+[pool-2-thread-3] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\USER\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+Starting ChromeDriver 118.0.5993.70 (e52f33f30b91b4ddfad649acddc39ab570473b86-refs/branch-heads/5993@{#1216}) on port 18462
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Oct 26, 2023 6:00:24 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 118
+Oct 26, 2023 6:00:24 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.8.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="user should see on contact page correct address, opening hours and phone number" classname="user should be able to reserve a table online" time="10.672">
-    <failure message="expected:&lt;[Seafood World Seafood Buffet Contact]&gt; but was:&lt;[]&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<[Seafood World Seafood Buffet Contact]> but was:<[]>
-]]></failure>
+  <testcase name="user should see on contact page correct address, opening hours and phone number" classname="user should be able to reserve a table online" time="16.137">
+    <error message="element not interactable: https://www.seafoodworld.net/contact/ has no size and location&#10;  (Session info: chrome=118.0.5993.118)&#10;Build info: version: &apos;4.8.1&apos;, revision: &apos;8ebccac989&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [9332aae685b9d29f3cfa22b41a618055, actions {actions=[org.openqa.selenium.interactions.Sequence@54a10a7e]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64939}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64939/devtoo..., se:cdpVersion: 118.0.5993.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 9332aae685b9d29f3cfa22b41a618055" type="org.openqa.selenium.ElementNotInteractableException"><![CDATA[org.openqa.selenium.ElementNotInteractableException: 
+element not interactable: https://www.seafoodworld.net/contact/ has no size and location
+  (Session info: chrome=118.0.5993.118)
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9332aae685b9d29f3cfa22b41a618055, actions {actions=[org.openqa.selenium.interactions.Sequence@54a10a7e]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64939}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64939/devtoo..., se:cdpVersion: 118.0.5993.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9332aae685b9d29f3cfa22b41a618055
+]]></error>
     <system-out><![CDATA[
 @regression
 Scenario: user should see on contact page correct address, opening hours and phone number &amp#27;[90m# src/test/resources/features/reservation.feature:42&amp#27;[0m
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser at the contact page&amp#27;[0m                                                          &amp#27;[90m# net.seafoodworld.step_definition.ReservationStepDef.user_at_the_contact_page()&amp#27;[0m
-  &amp#27;[31mWhen &amp#27;[0m&amp#27;[31muser scroll page down&amp#27;[0m                                                              &amp#27;[90m# net.seafoodworld.step_definition.ReservationStepDef.userScrollPageDown()&amp#27;[0m
-      &amp#27;[31morg.junit.ComparisonFailure: expected:<[Seafood World Seafood Buffet Contact]> but was:<[]>
-	at org.junit.Assert.assertEquals(Assert.java:117)
-	at org.junit.Assert.assertEquals(Assert.java:146)
-	at net.seafoodworld.step_definition.ReservationStepDef.userScrollPageDown(ReservationStepDef.java:160)
-	at вњЅ.user scroll page down(file:///C:/Users/USER/WORKSPACE/seafood-world-project/src/test/resources/features/reservation.feature:43)
+  &amp#27;[31mGiven &amp#27;[0m&amp#27;[31muser at the contact page&amp#27;[0m                                                          &amp#27;[90m# net.seafoodworld.step_definition.ReservationStepDef.user_at_the_contact_page()&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.ElementNotInteractableException: element not interactable: https://www.seafoodworld.net/contact/ has no size and location
+  (Session info: chrome=118.0.5993.118)
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9332aae685b9d29f3cfa22b41a618055, actions {actions=[org.openqa.selenium.interactions.Sequence@54a10a7e]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64939}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64939/devtoo..., se:cdpVersion: 118.0.5993.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9332aae685b9d29f3cfa22b41a618055
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:611)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:567)
+	at org.openqa.selenium.interactions.Actions.perform(Actions.java:536)
+	at net.seafoodworld.step_definition.ReservationStepDef.user_at_the_contact_page(ReservationStepDef.java:37)
+	at вњЅ.user at the contact page(file:///C:/Users/USER/WORKSPACE/seafood-world-project/src/test/resources/features/reservation.feature:4)
 &amp#27;[0m
+  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36muser scroll page down&amp#27;[0m                                                              &amp#27;[90m# net.seafoodworld.step_definition.ReservationStepDef.userScrollPageDown()&amp#27;[0m
   &amp#27;[36mThen &amp#27;[0m&amp#27;[36muser should see correct information&amp#27;[0m                                                &amp#27;[90m# net.seafoodworld.step_definition.ReservationStepDef.userShouldSeeCorrectInformation()&amp#27;[0m
 
-    Embedding Attached img [image/png 107871 bytes]
+    Embedding Attached img [image/png 886243 bytes]
 
 ]]></system-out>
-    <system-err><![CDATA[[pool-2-thread-2] INFO io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.33.0 (resolved driver for Firefox 118)
-[pool-2-thread-2] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\USER\.cache\selenium\geckodriver\win64\0.33.0\geckodriver.exe
-1698224717741	geckodriver	INFO	Listening on 127.0.0.1:38529
-1698224717759	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "33146" "--remote ... /localhost:33146/,http://[::1]:33146/" "-no-remote" "-profile" "C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofilema1kH4"
-console.warn: services.settings: Ignoring preference override of remote settings server
-console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1698224718264	Marionette	INFO	Marionette enabled
-Dynamically enable window occlusion 0
-1698224718399	Marionette	INFO	Listening on port 63515
-WebDriver BiDi listening on ws://127.0.0.1:33146
-Read port: 63515
-1698224718714	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-DevTools listening on ws://127.0.0.1:33146/devtools/browser/1433042e-629d-4506-94f9-cd01cbafa02b
-JavaScript warning: https://www.youtube.com/s/player/96163992/www-embed-player.vflset/www-embed-player.js, line 855: Script terminated by timeout at:
-Wk/<@https://www.youtube.com/s/player/96163992/www-embed-player.vflset/www-embed-player.js:855:47
-
-1698224727141	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:63563
-1698224727145	CDP	WARN	Invalid browser preferences for CDP. Set "fission.webContentIsolationStrategy"to 0 and "fission.bfcacheInParent" to false before Firefox starts.
-1698224727153	Marionette	INFO	Stopped listening on port 63515
-Dynamically enable window occlusion 1
+    <system-err><![CDATA[[pool-2-thread-3] ERROR io.github.bonigarcia.wdm.online.HttpClient - Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_118
+[pool-2-thread-3] WARN io.github.bonigarcia.wdm.versions.VersionDetector - Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_118 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_118)
+[pool-2-thread-3] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\USER\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+Starting ChromeDriver 118.0.5993.70 (e52f33f30b91b4ddfad649acddc39ab570473b86-refs/branch-heads/5993@{#1216}) on port 40919
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Oct 26, 2023 6:00:40 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 118
+Oct 26, 2023 6:00:40 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.8.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="user should see map on the contact page" classname="user should be able to reserve a table online" time="10.797">
+  <testcase name="user should see map on the contact page" classname="user should be able to reserve a table online" time="11.512">
     <system-out><![CDATA[
 @regression
 Scenario: user should see map on the contact page &amp#27;[90m# src/test/resources/features/reservation.feature:46&amp#27;[0m
@@ -716,40 +419,20 @@ Scenario: user should see map on the contact page &amp#27;[90m# src/test/resourc
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser scroll all the way down&amp#27;[0m               &amp#27;[90m# net.seafoodworld.step_definition.ReservationStepDef.userScrollAllTheWayDown()&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser should see map&amp#27;[0m                        &amp#27;[90m# net.seafoodworld.step_definition.ReservationStepDef.userShouldSeeMap()&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[[pool-2-thread-2] INFO io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.33.0 (resolved driver for Firefox 118)
-[pool-2-thread-2] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\USER\.cache\selenium\geckodriver\win64\0.33.0\geckodriver.exe
-1698224728400	geckodriver	INFO	Listening on 127.0.0.1:8819
-1698224728414	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "10467" "--remote ... /localhost:10467/,http://[::1]:10467/" "-no-remote" "-profile" "C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofilec2pyZs"
-console.warn: services.settings: Ignoring preference override of remote settings server
-console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1698224728840	Marionette	INFO	Marionette enabled
-Dynamically enable window occlusion 0
-1698224728932	Marionette	INFO	Listening on port 63568
-WebDriver BiDi listening on ws://127.0.0.1:10467
-Read port: 63568
-1698224729157	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-DevTools listening on ws://127.0.0.1:10467/devtools/browser/aaf365b3-e99e-4222-b9a5-8f317c0ee81d
-JavaScript warning: https://www.youtube.com/s/player/96163992/www-embed-player.vflset/www-embed-player.js, line 855: Script terminated by timeout at:
-Wk/<@https://www.youtube.com/s/player/96163992/www-embed-player.vflset/www-embed-player.js:855:47
-
-1698224737787	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:63617
-1698224737791	CDP	WARN	Invalid browser preferences for CDP. Set "fission.webContentIsolationStrategy"to 0 and "fission.bfcacheInParent" to false before Firefox starts.
-1698224737795	Marionette	INFO	Stopped listening on port 63568
-JavaScript warning: https://www.seafoodworld.net/wp-includes/js/jquery/jquery.min.js?ver=3.7.0, line 2: Script terminated by timeout at:
-ce@https://www.seafoodworld.net/wp-includes/js/jquery/jquery.min.js?ver=3.7.0:2:1070
-@https://www.seafoodworld.net/wp-content/plugins/easy-facebook-likebox/facebook/frontend/assets/js/esf-free-popup.min.js?ver=6.5.2:1:381
-@https://www.seafoodworld.net/wp-content/plugins/easy-facebook-likebox/facebook/frontend/assets/js/esf-free-popup.min.js?ver=6.5.2:1:73
-@https://www.seafoodworld.net/wp-content/plugins/easy-facebook-likebox/facebook/frontend/assets/js/esf-free-popup.min.js?ver=6.5.2:1:147
-
-JavaScript warning: https://maps.googleapis.com/maps/api/js?client=google-maps-embed&paint_origin=&libraries=geometry,search&v=3.exp&language=en&region=us&callback=onApiLoad, line 55: Script terminated by timeout at:
-caa@https://maps.googleapis.com/maps/api/js?client=google-maps-embed&paint_origin=&libraries=geometry,search&v=3.exp&language=en&region=us&callback=onApiLoad:55:267
-_.tr.prototype.i@https://maps.googleapis.com/maps-api-v3/api/js/54/11/common.js:233:869
-
-JavaScript error: https://www.seafoodworld.net/wp-content/plugins/easy-facebook-likebox/facebook/frontend/assets/js/public.js?ver=6.5.2, line 107: TypeError: $(...).esfFreePopup is not a function
-Dynamically enable window occlusion 1
+    <system-err><![CDATA[[pool-2-thread-3] ERROR io.github.bonigarcia.wdm.online.HttpClient - Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_118
+[pool-2-thread-3] WARN io.github.bonigarcia.wdm.versions.VersionDetector - Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_118 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_118)
+[pool-2-thread-3] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\USER\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+Starting ChromeDriver 118.0.5993.70 (e52f33f30b91b4ddfad649acddc39ab570473b86-refs/branch-heads/5993@{#1216}) on port 6253
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Oct 26, 2023 6:00:57 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 118
+Oct 26, 2023 6:00:57 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.8.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="user should see facebook picture link" classname="user should be able to reserve a table online" time="13.229">
+  <testcase name="user should see facebook picture link" classname="user should be able to reserve a table online" time="15.236">
     <system-out><![CDATA[
 @regression
 Scenario: user should see facebook picture link &amp#27;[90m# src/test/resources/features/reservation.feature:50&amp#27;[0m
@@ -757,56 +440,17 @@ Scenario: user should see facebook picture link &amp#27;[90m# src/test/resources
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser click on the facebook picture link&amp#27;[0m  &amp#27;[90m# net.seafoodworld.step_definition.ReservationStepDef.userClickOnTheFacebookPictureLink()&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser should see Facebook page&amp#27;[0m            &amp#27;[90m# net.seafoodworld.step_definition.ReservationStepDef.userShouldSeeFacebookPage()&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[[pool-2-thread-2] INFO io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.33.0 (resolved driver for Firefox 118)
-[pool-2-thread-2] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\USER\.cache\selenium\geckodriver\win64\0.33.0\geckodriver.exe
-1698224739195	geckodriver	INFO	Listening on 127.0.0.1:19654
-1698224739218	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "5650" "--remote- ... ://localhost:5650/,http://[::1]:5650/" "-no-remote" "-profile" "C:\\Users\\USER\\AppData\\Local\\Temp\\rust_mozprofileyqMGcm"
-console.warn: services.settings: Ignoring preference override of remote settings server
-console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1698224739654	Marionette	INFO	Marionette enabled
-Dynamically enable window occlusion 0
-1698224739749	Marionette	INFO	Listening on port 63622
-WebDriver BiDi listening on ws://127.0.0.1:5650
-Read port: 63622
-1698224739984	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-DevTools listening on ws://127.0.0.1:5650/devtools/browser/75f52acd-7cd4-49dd-ac1f-9ce1ea93c162
-JavaScript warning: https://www.google.com/js/th/Hlz_Mxh4zCuFpTIAeBvdZdR70vO27nrP9ghCf57VmoM.js line 2 > eval, line 6835: Script terminated by timeout at:
-O@https://www.google.com/js/th/Hlz_Mxh4zCuFpTIAeBvdZdR70vO27nrP9ghCf57VmoM.js line 2 > eval:6835:18679
-gl@https://www.google.com/js/th/Hlz_Mxh4zCuFpTIAeBvdZdR70vO27nrP9ghCf57VmoM.js line 2 > eval line 6835 > eval line 1 > eval line 1 > eval:1:51
-@https://www.google.com/js/th/Hlz_Mxh4zCuFpTIAeBvdZdR70vO27nrP9ghCf57VmoM.js line 2 > eval line 6835 > eval line 1 > eval line 1 > eval:1:17
-xZ@https://www.google.com/js/th/Hlz_Mxh4zCuFpTIAeBvdZdR70vO27nrP9ghCf57VmoM.js line 2 > eval line 6835 > eval line 1 > eval line 1 > eval:1:199
-qV@https://www.google.com/js/th/Hlz_Mxh4zCuFpTIAeBvdZdR70vO27nrP9ghCf57VmoM.js line 2 > eval line 6835 > eval line 1 > eval line 1 > eval:1:45
-b.prototype.S</<@https://www.google.com/js/th/Hlz_Mxh4zCuFpTIAeBvdZdR70vO27nrP9ghCf57VmoM.js line 2 > eval:6835:36362
-Vh@https://www.google.com/js/th/Hlz_Mxh4zCuFpTIAeBvdZdR70vO27nrP9ghCf57VmoM.js line 2 > eval:6835:17264
-P@https://www.google.com/js/th/Hlz_Mxh4zCuFpTIAeBvdZdR70vO27nrP9ghCf57VmoM.js line 2 > eval:6835:10994
-u@https://www.google.com/js/th/Hlz_Mxh4zCuFpTIAeBvdZdR70vO27nrP9ghCf57VmoM.js line 2 > eval:6835:2453
-M@https://www.google.com/js/th/Hlz_Mxh4zCuFpTIAeBvdZdR70vO27nrP9ghCf57VmoM.js line 2 > eval line 6835 > eval line 1 > eval line 1 > eval:1:187
-D.Bu@https://www.google.com/js/th/Hlz_Mxh4zCuFpTIAeBvdZdR70vO27nrP9ghCf57VmoM.js line 2 > eval:6835:35562
-db@https://www.google.com/js/th/Hlz_Mxh4zCuFpTIAeBvdZdR70vO27nrP9ghCf57VmoM.js line 2 > eval:6835:3104
-AJ.gYh_/<@https://www.google.com/js/th/Hlz_Mxh4zCuFpTIAeBvdZdR70vO27nrP9ghCf57VmoM.js line 2 > eval:6835:38168
-tn.prototype.SZ@https://www.youtube.com/s/player/96163992/player_ias.vflset/en_US/base.js:7802:149
-rI.prototype.U_@https://www.youtube.com/s/player/96163992/player_ias.vflset/en_US/base.js:8906:41
-g.k.invoke@https://www.youtube.com/s/player/96163992/player_ias.vflset/en_US/base.js:8897:64
-GKa@https://www.youtube.com/s/player/96163992/player_ias.vflset/en_US/base.js:3963:47
-g.KKa/a.c1a@https://www.youtube.com/s/player/96163992/player_ias.vflset/en_US/base.js:3969:276
-g.LKa@https://www.youtube.com/s/player/96163992/player_ias.vflset/en_US/base.js:3972:167
-g.k.eR@https://www.youtube.com/s/player/96163992/player_ias.vflset/en_US/base.js:12126:77
-g.k.sendAbandonmentPing@https://www.youtube.com/s/player/96163992/player_ias.vflset/en_US/base.js:12015:102
-g.k.sendAbandonmentPing@https://www.youtube.com/s/player/96163992/player_ias.vflset/en_US/base.js:10185:62
-ZT/a.state.j[b]@https://www.youtube.com/s/player/96163992/player_ias.vflset/en_US/base.js:4743:53
-ux/<@https://www.youtube.com/s/player/96163992/www-embed-player.vflset/www-embed-player.js:1822:107
-Gx@https://www.youtube.com/s/player/96163992/www-embed-player.vflset/www-embed-player.js:1857:46
-Kx<@https://www.youtube.com/s/player/96163992/www-embed-player.vflset/www-embed-player.js:1864:183
-Wk/<@https://www.youtube.com/s/player/96163992/www-embed-player.vflset/www-embed-player.js:855:63
-
-JavaScript error: https://www.seafoodworld.net/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1, line 2: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
-console.warn: services.settings: Ignoring preference override of remote settings server
-console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.sys.mjs", 593))
-1698224751145	RemoteAgent	INFO	Perform WebSocket upgrade for incoming connection from 127.0.0.1:63687
-1698224751150	CDP	WARN	Invalid browser preferences for CDP. Set "fission.webContentIsolationStrategy"to 0 and "fission.bfcacheInParent" to false before Firefox starts.
-1698224751160	Marionette	INFO	Stopped listening on port 63622
-Dynamically enable window occlusion 1
+    <system-err><![CDATA[[pool-2-thread-3] ERROR io.github.bonigarcia.wdm.online.HttpClient - Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_118
+[pool-2-thread-3] WARN io.github.bonigarcia.wdm.versions.VersionDetector - Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_118 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_118)
+[pool-2-thread-3] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\USER\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
+Starting ChromeDriver 118.0.5993.70 (e52f33f30b91b4ddfad649acddc39ab570473b86-refs/branch-heads/5993@{#1216}) on port 43917
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Oct 26, 2023 6:01:08 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 118
+Oct 26, 2023 6:01:08 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.8.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
 </testsuite>

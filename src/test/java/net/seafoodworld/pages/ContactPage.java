@@ -25,7 +25,7 @@ public class ContactPage {
     @FindBy(xpath = "//label[contains(.,'Your Message')]//textarea[@name='your-message']")
     public WebElement yourMsgBox;
 
-    @FindBy(xpath = "//input[@type='submit']")
+    @FindBy(xpath = "//p//input[@type='submit']")
     public WebElement sendBttn;
 
     @FindBy(xpath = "//div[.='One or more fields have an error. Please check and try again.']")

@@ -13,7 +13,7 @@ public class Hooks {
     @Before("@regression")
     public void setupDriver() {
 
-        Driver.getDriver().manage().timeouts().implicitlyWait(Duration.ofMillis(10000));
+       // Driver.getDriver().manage().timeouts().implicitlyWait(Duration.ofMillis(10000));
         Driver.getDriver().manage().window().maximize();
     }
 

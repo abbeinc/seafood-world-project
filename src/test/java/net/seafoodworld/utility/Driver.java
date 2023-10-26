@@ -3,6 +3,7 @@ package net.seafoodworld.utility;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
@@ -23,7 +24,9 @@ public class Driver {
 
                 case "chrome":
                     WebDriverManager.chromedriver().setup();
-                    driverPool.set(new ChromeDriver());
+                    ChromeOptions opt = new ChromeOptions();
+                    opt.addArguments("--remote-allow-origins=*");
+                    driverPool.set(new ChromeDriver(opt));
                     break;
 
                 case "firefox":

@@ -1,4 +1,4 @@
-
+@regression
 Feature: User should be able to create account
   Scenario: user can register  with the valid username, email and a password
     Given user at the My Account page

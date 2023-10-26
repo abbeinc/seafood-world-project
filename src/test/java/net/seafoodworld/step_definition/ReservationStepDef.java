@@ -10,6 +10,7 @@ import net.seafoodworld.pages.MainPage;
 import net.seafoodworld.utility.Driver;
 import org.junit.Assert;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -30,9 +31,10 @@ public class ReservationStepDef {
     @Given("user at the contact page")
     public void user_at_the_contact_page() {
         MainPage.goToMainPage();
-        js.executeScript("window.scrollBy(0,500)");
+        wait.until(ExpectedConditions.titleIs("Seafood World Calabash Seafood Buffet | Myrtle Beach Seafood Buffet Restaurant"));
+        js.executeScript("window.scrollBy(0,700)");
         wait.until(ExpectedConditions.visibilityOf(mainPage.reservation));
-        actions.moveToElement(mainPage.reservation).pause(100).moveToElement(mainPage.contact).click().perform();
+        actions.moveToElement(mainPage.reservation).pause(1000).moveToElement(mainPage.contact).click().perform();
 
     }
     @When("user enters name, email, message and click send")
@@ -72,7 +74,7 @@ public class ReservationStepDef {
         js.executeScript("window.scrollBy(0,300)");
         wait.until(ExpectedConditions.visibilityOf(contactPage.yourMsgBox));
         contactPage.yourMsgBox.sendKeys(faker.chuckNorris().fact());
-        contactPage.sendBttn.click();
+        contactPage.sendBttn.submit();
         js.executeScript("window.scrollBy(0,200)");
 
         
@@ -80,7 +82,7 @@ public class ReservationStepDef {
 
     @Then("user should see warning message")
     public void userShouldSeeWarningMessage() {
-
+        js.executeScript("window.scrollBy(0,200)");
         wait.until(ExpectedConditions.visibilityOf(contactPage.warningMsg));
         Assert.assertTrue(contactPage.warningMsg.isDisplayed());
     }
@@ -98,7 +100,8 @@ public class ReservationStepDef {
         js.executeScript("window.scrollBy(0,300)");
         wait.until(ExpectedConditions.visibilityOf(contactPage.yourMsgBox));
         contactPage.yourMsgBox.sendKeys(faker.chuckNorris().fact());
-        contactPage.sendBttn.click();
+        wait.until(ExpectedConditions.visibilityOf(contactPage.sendBttn));
+        contactPage.sendBttn.submit();
 
     }
 
@@ -114,7 +117,7 @@ public class ReservationStepDef {
         contactPage.yourNameBox.sendKeys(faker.name().fullName());
         contactPage.yourEmailBox.sendKeys(faker.name().firstName()+"@gmail.com");
         js.executeScript("window.scrollBy(0,300)");
-        contactPage.sendBttn.click();
+        contactPage.sendBttn.submit();;
     }
 
     @When("user click send button")
@@ -146,7 +149,7 @@ public class ReservationStepDef {
         actions.pause(1000).perform();
         wait.until(ExpectedConditions.visibilityOf(contactPage.yourMsgBox));
         contactPage.yourMsgBox.sendKeys(faker.chuckNorris().fact());
-        contactPage.sendBttn.click();
+        contactPage.sendBttn.submit();
 
     }
 

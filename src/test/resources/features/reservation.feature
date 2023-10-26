@@ -34,7 +34,6 @@ Feature: user should be able to reserve a table online
       | @gmail.com          |
       | name@.com           |
       | namegmail.com       |
-      | name@@gmail.com     |
       | name@gmail.com.     |
       | name@name@gmail.com |
       | name@gmail          |

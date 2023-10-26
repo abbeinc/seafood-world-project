@@ -1,20 +1,26 @@
 -------------------------------------------------------------------------------
 Test set: user should be able to reserve a table online
 -------------------------------------------------------------------------------
-Tests run: 15, Failures: 2, Errors: 1, Skipped: 0, Time elapsed: 235.03 s <<< FAILURE! - in user should be able to reserve a table online
-user should be able to reserve a table online.user can't send message if email is not correct #3  Time elapsed: 10.319 s  <<< ERROR!
-org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: 
-Origin element is not displayed
+Tests run: 15, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 266.252 s <<< FAILURE! - in user should be able to reserve a table online
+user should be able to reserve a table online.user can't send message if email is not correct #4  Time elapsed: 9.055 s  <<< ERROR!
+org.openqa.selenium.ElementNotInteractableException: 
+element not interactable: https://www.seafoodworld.net/contact/ has no size and location
+  (Session info: chrome=118.0.5993.118)
 Build info: version: '4.8.1', revision: '8ebccac989'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [6b7c0c06-c03a-40f0-99bd-46c62346e84b, actions {actions=[org.openqa.selenium.interactions.Sequence@369efb5c]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.2, moz:accessibilityChecks: false, moz:buildID: 20231009140911, moz:debuggerAddress: 127.0.0.1:26272, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 6364, moz:profile: C:\Users\USER\AppData\Local..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:26272/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 6b7c0c06-c03a-40f0-99bd-46c62346e84b
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [408b07d08459bff06050b0cc5fa2f55c, actions {actions=[org.openqa.selenium.interactions.Sequence@4459b316]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64722}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64722/devtoo..., se:cdpVersion: 118.0.5993.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 408b07d08459bff06050b0cc5fa2f55c
 
-user should be able to reserve a table online.user can't send message if email is not correct #4  Time elapsed: 10 s  <<< FAILURE!
-org.junit.ComparisonFailure: expected:<[Seafood World Seafood Buffet Contact]> but was:<[]>
-
-user should be able to reserve a table online.user should see on contact page correct address, opening hours and phone number  Time elapsed: 10.672 s  <<< FAILURE!
-org.junit.ComparisonFailure: expected:<[Seafood World Seafood Buffet Contact]> but was:<[]>
+user should be able to reserve a table online.user should see on contact page correct address, opening hours and phone number  Time elapsed: 16.137 s  <<< ERROR!
+org.openqa.selenium.ElementNotInteractableException: 
+element not interactable: https://www.seafoodworld.net/contact/ has no size and location
+  (Session info: chrome=118.0.5993.118)
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9332aae685b9d29f3cfa22b41a618055, actions {actions=[org.openqa.selenium.interactions.Sequence@54a10a7e]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64939}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64939/devtoo..., se:cdpVersion: 118.0.5993.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9332aae685b9d29f3cfa22b41a618055
 
