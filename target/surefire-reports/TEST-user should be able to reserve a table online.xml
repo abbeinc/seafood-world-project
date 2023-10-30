@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="user should be able to reserve a table online" time="266.252" tests="15" errors="2" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="user should be able to reserve a table online" time="241.076" tests="14" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -19,7 +19,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_231\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\USER\AppData\Local\Temp\surefire7862797648864447084\surefirebooter8737549192603487437.jar C:\Users\USER\AppData\Local\Temp\surefire7862797648864447084 2023-10-26T05-56-52_838-jvmRun1 surefire4570015122497737599tmp surefire_07325893545190585795tmp"/>
+    <property name="sun.java.command" value="C:\Users\USER\AppData\Local\Temp\surefire7913384427182471764\surefirebooter6021200009916713753.jar C:\Users\USER\AppData\Local\Temp\surefire7913384427182471764 2023-10-30T09-20-53_591-jvmRun1 surefire6148893731137397619tmp surefire_07969241992908222281tmp"/>
     <property name="surefire.test.class.path" value="C:\Users\USER\WORKSPACE\seafood-world-project\target\test-classes;C:\Users\USER\WORKSPACE\seafood-world-project\target\classes;C:\Users\USER\.m2\repository\org\seleniumhq\selenium\selenium-java\4.8.1\selenium-java-4.8.1.jar;C:\Users\USER\.m2\repository\org\seleniumhq\selenium\selenium-api\4.8.1\selenium-api-4.8.1.jar;C:\Users\USER\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.8.1\selenium-chrome-driver-4.8.1.jar;C:\Users\USER\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\USER\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\USER\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\USER\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\USER\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\USER\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\USER\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\USER\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\USER\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\USER\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\USER\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.8.1\selenium-chromium-driver-4.8.1.jar;C:\Users\USER\.m2\repository\org\seleniumhq\selenium\selenium-json\4.8.1\selenium-json-4.8.1.jar;C:\Users\USER\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v108\4.8.1\selenium-devtools-v108-4.8.1.jar;C:\Users\USER\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v109\4.8.1\selenium-devtools-v109-4.8.1.jar;C:\Users\USER\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v110\4.8.1\selenium-devtools-v110-4.8.1.jar;C:\Users\USER\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.8.1\selenium-devtools-v85-4.8.1.jar;C:\Users\USER\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.8.1\selenium-edge-driver-4.8.1.jar;C:\Users\USER\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.8.1\selenium-firefox-driver-4.8.1.jar;C:\Users\USER\.m2\repository\org\seleniumhq\selenium\selenium-http\4.8.1\selenium-http-4.8.1.jar;C:\Users\USER\.m2\repository\dev\failsafe\failsafe\3.3.0\failsafe-3.3.0.jar;C:\Users\USER\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.8.1\selenium-ie-driver-4.8.1.jar;C:\Users\USER\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.8.1\selenium-remote-driver-4.8.1.jar;C:\Users\USER\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\USER\.m2\repository\io\netty\netty-buffer\4.1.87.Final\netty-buffer-4.1.87.Final.jar;C:\Users\USER\.m2\repository\io\netty\netty-codec-http\4.1.87.Final\netty-codec-http-4.1.87.Final.jar;C:\Users\USER\.m2\repository\io\netty\netty-codec\4.1.87.Final\netty-codec-4.1.87.Final.jar;C:\Users\USER\.m2\repository\io\netty\netty-handler\4.1.87.Final\netty-handler-4.1.87.Final.jar;C:\Users\USER\.m2\repository\io\netty\netty-common\4.1.87.Final\netty-common-4.1.87.Final.jar;C:\Users\USER\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.87.Final\netty-transport-classes-epoll-4.1.87.Final.jar;C:\Users\USER\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.87.Final\netty-transport-classes-kqueue-4.1.87.Final.jar;C:\Users\USER\.m2\repository\io\netty\netty-transport-native-epoll\4.1.87.Final\netty-transport-native-epoll-4.1.87.Final.jar;C:\Users\USER\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.87.Final\netty-transport-native-kqueue-4.1.87.Final.jar;C:\Users\USER\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.87.Final\netty-transport-native-unix-common-4.1.87.Final.jar;C:\Users\USER\.m2\repository\io\netty\netty-transport\4.1.87.Final\netty-transport-4.1.87.Final.jar;C:\Users\USER\.m2\repository\io\netty\netty-resolver\4.1.87.Final\netty-resolver-4.1.87.Final.jar;C:\Users\USER\.m2\repository\io\opentelemetry\opentelemetry-api\1.22.0\opentelemetry-api-1.22.0.jar;C:\Users\USER\.m2\repository\io\opentelemetry\opentelemetry-context\1.22.0\opentelemetry-context-1.22.0.jar;C:\Users\USER\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.22.0\opentelemetry-exporter-logging-1.22.0.jar;C:\Users\USER\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.22.0\opentelemetry-sdk-metrics-1.22.0.jar;C:\Users\USER\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.22.0-alpha\opentelemetry-sdk-logs-1.22.0-alpha.jar;C:\Users\USER\.m2\repository\io\opentelemetry\opentelemetry-api-logs\1.22.0-alpha\opentelemetry-api-logs-1.22.0-alpha.jar;C:\Users\USER\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.22.0\opentelemetry-sdk-common-1.22.0.jar;C:\Users\USER\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.22.0\opentelemetry-sdk-extension-autoconfigure-spi-1.22.0.jar;C:\Users\USER\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.22.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.22.0-alpha.jar;C:\Users\USER\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.22.0\opentelemetry-sdk-trace-1.22.0.jar;C:\Users\USER\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.22.0\opentelemetry-sdk-1.22.0.jar;C:\Users\USER\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.22.0-alpha\opentelemetry-semconv-1.22.0-alpha.jar;C:\Users\USER\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\USER\.m2\repository\net\bytebuddy\byte-buddy\1.12.22\byte-buddy-1.12.22.jar;C:\Users\USER\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\USER\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\USER\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\USER\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\USER\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\USER\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\USER\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\USER\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\USER\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\USER\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\USER\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.8.1\selenium-manager-4.8.1.jar;C:\Users\USER\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.8.1\selenium-safari-driver-4.8.1.jar;C:\Users\USER\.m2\repository\org\seleniumhq\selenium\selenium-support\4.8.1\selenium-support-4.8.1.jar;C:\Users\USER\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\USER\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\USER\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\USER\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\USER\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\USER\.m2\repository\io\github\bonigarcia\webdrivermanager\5.3.2\webdrivermanager-5.3.2.jar;C:\Users\USER\.m2\repository\org\slf4j\slf4j-api\2.0.6\slf4j-api-2.0.6.jar;C:\Users\USER\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\USER\.m2\repository\com\github\docker-java\docker-java\3.2.14\docker-java-3.2.14.jar;C:\Users\USER\.m2\repository\com\github\docker-java\docker-java-core\3.2.14\docker-java-core-3.2.14.jar;C:\Users\USER\.m2\repository\com\github\docker-java\docker-java-api\3.2.14\docker-java-api-3.2.14.jar;C:\Users\USER\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\USER\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\USER\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\USER\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\USER\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\USER\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\USER\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\USER\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\USER\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.14\docker-java-transport-httpclient5-3.2.14.jar;C:\Users\USER\.m2\repository\com\github\docker-java\docker-java-transport\3.2.14\docker-java-transport-3.2.14.jar;C:\Users\USER\.m2\repository\net\java\dev\jna\jna\5.12.1\jna-5.12.1.jar;C:\Users\USER\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\USER\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\USER\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\USER\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\USER\.m2\repository\io\cucumber\cucumber-java\7.11.1\cucumber-java-7.11.1.jar;C:\Users\USER\.m2\repository\io\cucumber\cucumber-core\7.11.1\cucumber-core-7.11.1.jar;C:\Users\USER\.m2\repository\io\cucumber\cucumber-gherkin\7.11.1\cucumber-gherkin-7.11.1.jar;C:\Users\USER\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.11.1\cucumber-gherkin-messages-7.11.1.jar;C:\Users\USER\.m2\repository\io\cucumber\gherkin\26.0.3\gherkin-26.0.3.jar;C:\Users\USER\.m2\repository\io\cucumber\messages\21.0.1\messages-21.0.1.jar;C:\Users\USER\.m2\repository\io\cucumber\tag-expressions\5.0.1\tag-expressions-5.0.1.jar;C:\Users\USER\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\USER\.m2\repository\io\cucumber\datatable\7.11.1\datatable-7.11.1.jar;C:\Users\USER\.m2\repository\io\cucumber\cucumber-plugin\7.11.1\cucumber-plugin-7.11.1.jar;C:\Users\USER\.m2\repository\io\cucumber\docstring\7.11.1\docstring-7.11.1.jar;C:\Users\USER\.m2\repository\io\cucumber\html-formatter\20.2.1\html-formatter-20.2.1.jar;C:\Users\USER\.m2\repository\io\cucumber\junit-xml-formatter\0.1.0\junit-xml-formatter-0.1.0.jar;C:\Users\USER\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\Users\USER\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\USER\.m2\repository\io\cucumber\cucumber-junit\7.11.1\cucumber-junit-7.11.1.jar;C:\Users\USER\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\USER\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\USER\.m2\repository\org\slf4j\slf4j-simple\2.0.5\slf4j-simple-2.0.5.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\USER"/>
@@ -32,7 +32,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\USER\AppData\Local\Temp\surefire7862797648864447084\surefirebooter8737549192603487437.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\USER\AppData\Local\Temp\surefire7913384427182471764\surefirebooter6021200009916713753.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_231\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_231\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -62,7 +62,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="user fill up all the fields and send reservation" classname="user should be able to reserve a table online" time="28.31">
+  <testcase name="user fill up all the fields and send reservation" classname="user should be able to reserve a table online" time="30.744">
     <system-out><![CDATA[
 @regression
 Scenario: user fill up all the fields and send reservation &amp#27;[90m# src/test/resources/features/reservation.feature:6&amp#27;[0m
@@ -73,17 +73,17 @@ Scenario: user fill up all the fields and send reservation &amp#27;[90m# src/tes
     <system-err><![CDATA[[pool-2-thread-3] ERROR io.github.bonigarcia.wdm.online.HttpClient - Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_118
 [pool-2-thread-3] WARN io.github.bonigarcia.wdm.versions.VersionDetector - Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_118 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_118)
 [pool-2-thread-3] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\USER\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
-Starting ChromeDriver 118.0.5993.70 (e52f33f30b91b4ddfad649acddc39ab570473b86-refs/branch-heads/5993@{#1216}) on port 8031
+Starting ChromeDriver 118.0.5993.70 (e52f33f30b91b4ddfad649acddc39ab570473b86-refs/branch-heads/5993@{#1216}) on port 25249
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Oct 26, 2023 5:57:00 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Oct 30, 2023 9:21:03 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 118
-Oct 26, 2023 5:57:00 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+Oct 30, 2023 9:21:03 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.8.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="user fill up all fields except Name" classname="user should be able to reserve a table online" time="27.525">
+  <testcase name="user fill up all fields except Name" classname="user should be able to reserve a table online" time="38.165">
     <system-out><![CDATA[
 @regression
 Scenario: user fill up all fields except Name    &amp#27;[90m# src/test/resources/features/reservation.feature:11&amp#27;[0m
@@ -94,17 +94,17 @@ Scenario: user fill up all fields except Name    &amp#27;[90m# src/test/resource
     <system-err><![CDATA[[pool-2-thread-3] ERROR io.github.bonigarcia.wdm.online.HttpClient - Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_118
 [pool-2-thread-3] WARN io.github.bonigarcia.wdm.versions.VersionDetector - Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_118 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_118)
 [pool-2-thread-3] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\USER\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
-Starting ChromeDriver 118.0.5993.70 (e52f33f30b91b4ddfad649acddc39ab570473b86-refs/branch-heads/5993@{#1216}) on port 32478
+Starting ChromeDriver 118.0.5993.70 (e52f33f30b91b4ddfad649acddc39ab570473b86-refs/branch-heads/5993@{#1216}) on port 41506
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Oct 26, 2023 5:57:36 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Oct 30, 2023 9:21:41 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 118
-Oct 26, 2023 5:57:36 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+Oct 30, 2023 9:21:41 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.8.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="user fill up all fields except Email" classname="user should be able to reserve a table online" time="18.853">
+  <testcase name="user fill up all fields except Email" classname="user should be able to reserve a table online" time="16.656">
     <system-out><![CDATA[
 @regression
 Scenario: user fill up all fields except Email  &amp#27;[90m# src/test/resources/features/reservation.feature:15&amp#27;[0m
@@ -115,17 +115,17 @@ Scenario: user fill up all fields except Email  &amp#27;[90m# src/test/resources
     <system-err><![CDATA[[pool-2-thread-3] ERROR io.github.bonigarcia.wdm.online.HttpClient - Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_118
 [pool-2-thread-3] WARN io.github.bonigarcia.wdm.versions.VersionDetector - Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_118 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_118)
 [pool-2-thread-3] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\USER\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
-Starting ChromeDriver 118.0.5993.70 (e52f33f30b91b4ddfad649acddc39ab570473b86-refs/branch-heads/5993@{#1216}) on port 39585
+Starting ChromeDriver 118.0.5993.70 (e52f33f30b91b4ddfad649acddc39ab570473b86-refs/branch-heads/5993@{#1216}) on port 13207
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Oct 26, 2023 5:57:54 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Oct 30, 2023 9:22:09 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 118
-Oct 26, 2023 5:57:54 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+Oct 30, 2023 9:22:09 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.8.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="user fill up all fields except text Msg" classname="user should be able to reserve a table online" time="14.892">
+  <testcase name="user fill up all fields except text Msg" classname="user should be able to reserve a table online" time="15.794">
     <system-out><![CDATA[
 @regression
 Scenario: user fill up all fields except text Msg &amp#27;[90m# src/test/resources/features/reservation.feature:19&amp#27;[0m
@@ -136,17 +136,17 @@ Scenario: user fill up all fields except text Msg &amp#27;[90m# src/test/resourc
     <system-err><![CDATA[[pool-2-thread-3] ERROR io.github.bonigarcia.wdm.online.HttpClient - Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_118
 [pool-2-thread-3] WARN io.github.bonigarcia.wdm.versions.VersionDetector - Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_118 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_118)
 [pool-2-thread-3] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\USER\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
-Starting ChromeDriver 118.0.5993.70 (e52f33f30b91b4ddfad649acddc39ab570473b86-refs/branch-heads/5993@{#1216}) on port 22096
+Starting ChromeDriver 118.0.5993.70 (e52f33f30b91b4ddfad649acddc39ab570473b86-refs/branch-heads/5993@{#1216}) on port 17239
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Oct 26, 2023 5:58:12 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Oct 30, 2023 9:22:26 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 118
-Oct 26, 2023 5:58:12 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+Oct 30, 2023 9:22:26 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.8.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="user does not fill up any fields and click submit" classname="user should be able to reserve a table online" time="13.058">
+  <testcase name="user does not fill up any fields and click submit" classname="user should be able to reserve a table online" time="16.003">
     <system-out><![CDATA[
 @regression
 Scenario: user does not fill up any fields and click submit &amp#27;[90m# src/test/resources/features/reservation.feature:24&amp#27;[0m
@@ -157,17 +157,17 @@ Scenario: user does not fill up any fields and click submit &amp#27;[90m# src/te
     <system-err><![CDATA[[pool-2-thread-3] ERROR io.github.bonigarcia.wdm.online.HttpClient - Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_118
 [pool-2-thread-3] WARN io.github.bonigarcia.wdm.versions.VersionDetector - Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_118 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_118)
 [pool-2-thread-3] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\USER\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
-Starting ChromeDriver 118.0.5993.70 (e52f33f30b91b4ddfad649acddc39ab570473b86-refs/branch-heads/5993@{#1216}) on port 1273
+Starting ChromeDriver 118.0.5993.70 (e52f33f30b91b4ddfad649acddc39ab570473b86-refs/branch-heads/5993@{#1216}) on port 44548
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Oct 26, 2023 5:58:27 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Oct 30, 2023 9:22:40 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 118
-Oct 26, 2023 5:58:27 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+Oct 30, 2023 9:22:40 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.8.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="user can&apos;t send message if email is not correct #1" classname="user should be able to reserve a table online" time="15.686">
+  <testcase name="user can&apos;t send message if email is not correct #1" classname="user should be able to reserve a table online" time="15.325">
     <system-out><![CDATA[
 @regression
 Scenario Outline: user can't send message if email is not correct &amp#27;[90m# src/test/resources/features/reservation.feature:34&amp#27;[0m
@@ -178,17 +178,17 @@ Scenario Outline: user can't send message if email is not correct &amp#27;[90m# 
     <system-err><![CDATA[[pool-2-thread-3] ERROR io.github.bonigarcia.wdm.online.HttpClient - Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_118
 [pool-2-thread-3] WARN io.github.bonigarcia.wdm.versions.VersionDetector - Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_118 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_118)
 [pool-2-thread-3] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\USER\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
-Starting ChromeDriver 118.0.5993.70 (e52f33f30b91b4ddfad649acddc39ab570473b86-refs/branch-heads/5993@{#1216}) on port 47259
+Starting ChromeDriver 118.0.5993.70 (e52f33f30b91b4ddfad649acddc39ab570473b86-refs/branch-heads/5993@{#1216}) on port 1647
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Oct 26, 2023 5:58:40 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Oct 30, 2023 9:22:57 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 118
-Oct 26, 2023 5:58:40 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+Oct 30, 2023 9:22:57 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.8.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="user can&apos;t send message if email is not correct #2" classname="user should be able to reserve a table online" time="27.969">
+  <testcase name="user can&apos;t send message if email is not correct #2" classname="user should be able to reserve a table online" time="14.097">
     <system-out><![CDATA[
 @regression
 Scenario Outline: user can't send message if email is not correct &amp#27;[90m# src/test/resources/features/reservation.feature:35&amp#27;[0m
@@ -199,17 +199,17 @@ Scenario Outline: user can't send message if email is not correct &amp#27;[90m# 
     <system-err><![CDATA[[pool-2-thread-3] ERROR io.github.bonigarcia.wdm.online.HttpClient - Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_118
 [pool-2-thread-3] WARN io.github.bonigarcia.wdm.versions.VersionDetector - Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_118 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_118)
 [pool-2-thread-3] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\USER\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
-Starting ChromeDriver 118.0.5993.70 (e52f33f30b91b4ddfad649acddc39ab570473b86-refs/branch-heads/5993@{#1216}) on port 8408
+Starting ChromeDriver 118.0.5993.70 (e52f33f30b91b4ddfad649acddc39ab570473b86-refs/branch-heads/5993@{#1216}) on port 33908
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Oct 26, 2023 5:59:06 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Oct 30, 2023 9:23:11 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 118
-Oct 26, 2023 5:59:06 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+Oct 30, 2023 9:23:11 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.8.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="user can&apos;t send message if email is not correct #3" classname="user should be able to reserve a table online" time="14.108">
+  <testcase name="user can&apos;t send message if email is not correct #3" classname="user should be able to reserve a table online" time="13.522">
     <system-out><![CDATA[
 @regression
 Scenario Outline: user can't send message if email is not correct &amp#27;[90m# src/test/resources/features/reservation.feature:36&amp#27;[0m
@@ -220,79 +220,20 @@ Scenario Outline: user can't send message if email is not correct &amp#27;[90m# 
     <system-err><![CDATA[[pool-2-thread-3] ERROR io.github.bonigarcia.wdm.online.HttpClient - Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_118
 [pool-2-thread-3] WARN io.github.bonigarcia.wdm.versions.VersionDetector - Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_118 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_118)
 [pool-2-thread-3] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\USER\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
-Starting ChromeDriver 118.0.5993.70 (e52f33f30b91b4ddfad649acddc39ab570473b86-refs/branch-heads/5993@{#1216}) on port 35521
+Starting ChromeDriver 118.0.5993.70 (e52f33f30b91b4ddfad649acddc39ab570473b86-refs/branch-heads/5993@{#1216}) on port 33184
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Oct 26, 2023 5:59:23 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Oct 30, 2023 9:23:26 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 118
-Oct 26, 2023 5:59:23 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+Oct 30, 2023 9:23:26 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.8.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="user can&apos;t send message if email is not correct #4" classname="user should be able to reserve a table online" time="9.055">
-    <error message="element not interactable: https://www.seafoodworld.net/contact/ has no size and location&#10;  (Session info: chrome=118.0.5993.118)&#10;Build info: version: &apos;4.8.1&apos;, revision: &apos;8ebccac989&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [408b07d08459bff06050b0cc5fa2f55c, actions {actions=[org.openqa.selenium.interactions.Sequence@4459b316]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64722}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64722/devtoo..., se:cdpVersion: 118.0.5993.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 408b07d08459bff06050b0cc5fa2f55c" type="org.openqa.selenium.ElementNotInteractableException"><![CDATA[org.openqa.selenium.ElementNotInteractableException: 
-element not interactable: https://www.seafoodworld.net/contact/ has no size and location
-  (Session info: chrome=118.0.5993.118)
-Build info: version: '4.8.1', revision: '8ebccac989'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [408b07d08459bff06050b0cc5fa2f55c, actions {actions=[org.openqa.selenium.interactions.Sequence@4459b316]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64722}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64722/devtoo..., se:cdpVersion: 118.0.5993.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 408b07d08459bff06050b0cc5fa2f55c
-]]></error>
+  <testcase name="user can&apos;t send message if email is not correct #4" classname="user should be able to reserve a table online" time="14.213">
     <system-out><![CDATA[
 @regression
 Scenario Outline: user can't send message if email is not correct  &amp#27;[90m# src/test/resources/features/reservation.feature:37&amp#27;[0m
-  &amp#27;[31mGiven &amp#27;[0m&amp#27;[31muser at the contact page&amp#27;[0m                                   &amp#27;[90m# net.seafoodworld.step_definition.ReservationStepDef.user_at_the_contact_page()&amp#27;[0m
-      &amp#27;[31morg.openqa.selenium.ElementNotInteractableException: element not interactable: https://www.seafoodworld.net/contact/ has no size and location
-  (Session info: chrome=118.0.5993.118)
-Build info: version: '4.8.1', revision: '8ebccac989'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [408b07d08459bff06050b0cc5fa2f55c, actions {actions=[org.openqa.selenium.interactions.Sequence@4459b316]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64722}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64722/devtoo..., se:cdpVersion: 118.0.5993.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 408b07d08459bff06050b0cc5fa2f55c
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:611)
-	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:567)
-	at org.openqa.selenium.interactions.Actions.perform(Actions.java:536)
-	at net.seafoodworld.step_definition.ReservationStepDef.user_at_the_contact_page(ReservationStepDef.java:37)
-	at вњЅ.user at the contact page(file:///C:/Users/USER/WORKSPACE/seafood-world-project/src/test/resources/features/reservation.feature:4)
-&amp#27;[0m
-  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36muser enters name, &amp#27;[0m&amp#27;[36m&amp#27;[1m"name@@gmail.com"&amp#27;[0m&amp#27;[36m, message and click send&amp#27;[0m &amp#27;[90m# net.seafoodworld.step_definition.ReservationStepDef.userEntersNameMessageAndClickSend(java.lang.String)&amp#27;[0m
-  &amp#27;[36mThen &amp#27;[0m&amp#27;[36muser should see warning message&amp#27;[0m                             &amp#27;[90m# net.seafoodworld.step_definition.ReservationStepDef.userShouldSeeWarningMessage()&amp#27;[0m
-
-    Embedding Attached img [image/png 886243 bytes]
-
-]]></system-out>
-    <system-err><![CDATA[[pool-2-thread-3] ERROR io.github.bonigarcia.wdm.online.HttpClient - Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_118
-[pool-2-thread-3] WARN io.github.bonigarcia.wdm.versions.VersionDetector - Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_118 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_118)
-[pool-2-thread-3] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\USER\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
-Starting ChromeDriver 118.0.5993.70 (e52f33f30b91b4ddfad649acddc39ab570473b86-refs/branch-heads/5993@{#1216}) on port 20251
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Oct 26, 2023 5:59:37 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 118
-Oct 26, 2023 5:59:37 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
-WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.8.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
-  </testcase>
-  <testcase name="user can&apos;t send message if email is not correct #5" classname="user should be able to reserve a table online" time="16.087">
-    <system-out><![CDATA[
-@regression
-Scenario Outline: user can't send message if email is not correct  &amp#27;[90m# src/test/resources/features/reservation.feature:38&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser at the contact page&amp#27;[0m                                   &amp#27;[90m# net.seafoodworld.step_definition.ReservationStepDef.user_at_the_contact_page()&amp#27;[0m
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters name, &amp#27;[0m&amp#27;[32m&amp#27;[1m"name@gmail.com."&amp#27;[0m&amp#27;[32m, message and click send&amp#27;[0m &amp#27;[90m# net.seafoodworld.step_definition.ReservationStepDef.userEntersNameMessageAndClickSend(java.lang.String)&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser should see warning message&amp#27;[0m                             &amp#27;[90m# net.seafoodworld.step_definition.ReservationStepDef.userShouldSeeWarningMessage()&amp#27;[0m
@@ -300,20 +241,20 @@ Scenario Outline: user can't send message if email is not correct  &amp#27;[90m#
     <system-err><![CDATA[[pool-2-thread-3] ERROR io.github.bonigarcia.wdm.online.HttpClient - Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_118
 [pool-2-thread-3] WARN io.github.bonigarcia.wdm.versions.VersionDetector - Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_118 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_118)
 [pool-2-thread-3] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\USER\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
-Starting ChromeDriver 118.0.5993.70 (e52f33f30b91b4ddfad649acddc39ab570473b86-refs/branch-heads/5993@{#1216}) on port 38335
+Starting ChromeDriver 118.0.5993.70 (e52f33f30b91b4ddfad649acddc39ab570473b86-refs/branch-heads/5993@{#1216}) on port 22337
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Oct 26, 2023 5:59:47 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Oct 30, 2023 9:23:39 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 118
-Oct 26, 2023 5:59:47 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+Oct 30, 2023 9:23:39 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.8.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="user can&apos;t send message if email is not correct #6" classname="user should be able to reserve a table online" time="21.043">
+  <testcase name="user can&apos;t send message if email is not correct #5" classname="user should be able to reserve a table online" time="14.023">
     <system-out><![CDATA[
 @regression
-Scenario Outline: user can't send message if email is not correct      &amp#27;[90m# src/test/resources/features/reservation.feature:39&amp#27;[0m
+Scenario Outline: user can't send message if email is not correct      &amp#27;[90m# src/test/resources/features/reservation.feature:38&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser at the contact page&amp#27;[0m                                       &amp#27;[90m# net.seafoodworld.step_definition.ReservationStepDef.user_at_the_contact_page()&amp#27;[0m
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters name, &amp#27;[0m&amp#27;[32m&amp#27;[1m"name@name@gmail.com"&amp#27;[0m&amp#27;[32m, message and click send&amp#27;[0m &amp#27;[90m# net.seafoodworld.step_definition.ReservationStepDef.userEntersNameMessageAndClickSend(java.lang.String)&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser should see warning message&amp#27;[0m                                 &amp#27;[90m# net.seafoodworld.step_definition.ReservationStepDef.userShouldSeeWarningMessage()&amp#27;[0m
@@ -321,20 +262,20 @@ Scenario Outline: user can't send message if email is not correct      &amp#27;[
     <system-err><![CDATA[[pool-2-thread-3] ERROR io.github.bonigarcia.wdm.online.HttpClient - Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_118
 [pool-2-thread-3] WARN io.github.bonigarcia.wdm.versions.VersionDetector - Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_118 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_118)
 [pool-2-thread-3] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\USER\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
-Starting ChromeDriver 118.0.5993.70 (e52f33f30b91b4ddfad649acddc39ab570473b86-refs/branch-heads/5993@{#1216}) on port 41911
+Starting ChromeDriver 118.0.5993.70 (e52f33f30b91b4ddfad649acddc39ab570473b86-refs/branch-heads/5993@{#1216}) on port 36195
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Oct 26, 2023 6:00:03 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Oct 30, 2023 9:23:53 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 118
-Oct 26, 2023 6:00:03 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+Oct 30, 2023 9:23:53 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.8.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="user can&apos;t send message if email is not correct #7" classname="user should be able to reserve a table online" time="16.779">
+  <testcase name="user can&apos;t send message if email is not correct #6" classname="user should be able to reserve a table online" time="16.055">
     <system-out><![CDATA[
 @regression
-Scenario Outline: user can't send message if email is not correct &amp#27;[90m# src/test/resources/features/reservation.feature:40&amp#27;[0m
+Scenario Outline: user can't send message if email is not correct &amp#27;[90m# src/test/resources/features/reservation.feature:39&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser at the contact page&amp#27;[0m                                  &amp#27;[90m# net.seafoodworld.step_definition.ReservationStepDef.user_at_the_contact_page()&amp#27;[0m
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser enters name, &amp#27;[0m&amp#27;[32m&amp#27;[1m"name@gmail"&amp#27;[0m&amp#27;[32m, message and click send&amp#27;[0m     &amp#27;[90m# net.seafoodworld.step_definition.ReservationStepDef.userEntersNameMessageAndClickSend(java.lang.String)&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser should see warning message&amp#27;[0m                            &amp#27;[90m# net.seafoodworld.step_definition.ReservationStepDef.userShouldSeeWarningMessage()&amp#27;[0m
@@ -342,79 +283,41 @@ Scenario Outline: user can't send message if email is not correct &amp#27;[90m# 
     <system-err><![CDATA[[pool-2-thread-3] ERROR io.github.bonigarcia.wdm.online.HttpClient - Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_118
 [pool-2-thread-3] WARN io.github.bonigarcia.wdm.versions.VersionDetector - Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_118 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_118)
 [pool-2-thread-3] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\USER\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
-Starting ChromeDriver 118.0.5993.70 (e52f33f30b91b4ddfad649acddc39ab570473b86-refs/branch-heads/5993@{#1216}) on port 18462
+Starting ChromeDriver 118.0.5993.70 (e52f33f30b91b4ddfad649acddc39ab570473b86-refs/branch-heads/5993@{#1216}) on port 20547
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Oct 26, 2023 6:00:24 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Oct 30, 2023 9:24:08 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 118
-Oct 26, 2023 6:00:24 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+Oct 30, 2023 9:24:08 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.8.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="user should see on contact page correct address, opening hours and phone number" classname="user should be able to reserve a table online" time="16.137">
-    <error message="element not interactable: https://www.seafoodworld.net/contact/ has no size and location&#10;  (Session info: chrome=118.0.5993.118)&#10;Build info: version: &apos;4.8.1&apos;, revision: &apos;8ebccac989&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_231&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [9332aae685b9d29f3cfa22b41a618055, actions {actions=[org.openqa.selenium.interactions.Sequence@54a10a7e]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64939}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64939/devtoo..., se:cdpVersion: 118.0.5993.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 9332aae685b9d29f3cfa22b41a618055" type="org.openqa.selenium.ElementNotInteractableException"><![CDATA[org.openqa.selenium.ElementNotInteractableException: 
-element not interactable: https://www.seafoodworld.net/contact/ has no size and location
-  (Session info: chrome=118.0.5993.118)
-Build info: version: '4.8.1', revision: '8ebccac989'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [9332aae685b9d29f3cfa22b41a618055, actions {actions=[org.openqa.selenium.interactions.Sequence@54a10a7e]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64939}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64939/devtoo..., se:cdpVersion: 118.0.5993.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 9332aae685b9d29f3cfa22b41a618055
-]]></error>
+  <testcase name="user should see on contact page correct address, opening hours and phone number" classname="user should be able to reserve a table online" time="11.334">
     <system-out><![CDATA[
 @regression
-Scenario: user should see on contact page correct address, opening hours and phone number &amp#27;[90m# src/test/resources/features/reservation.feature:42&amp#27;[0m
-  &amp#27;[31mGiven &amp#27;[0m&amp#27;[31muser at the contact page&amp#27;[0m                                                          &amp#27;[90m# net.seafoodworld.step_definition.ReservationStepDef.user_at_the_contact_page()&amp#27;[0m
-      &amp#27;[31morg.openqa.selenium.ElementNotInteractableException: element not interactable: https://www.seafoodworld.net/contact/ has no size and location
-  (Session info: chrome=118.0.5993.118)
-Build info: version: '4.8.1', revision: '8ebccac989'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [9332aae685b9d29f3cfa22b41a618055, actions {actions=[org.openqa.selenium.interactions.Sequence@54a10a7e]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\USER\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64939}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64939/devtoo..., se:cdpVersion: 118.0.5993.118, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 9332aae685b9d29f3cfa22b41a618055
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:611)
-	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:567)
-	at org.openqa.selenium.interactions.Actions.perform(Actions.java:536)
-	at net.seafoodworld.step_definition.ReservationStepDef.user_at_the_contact_page(ReservationStepDef.java:37)
-	at вњЅ.user at the contact page(file:///C:/Users/USER/WORKSPACE/seafood-world-project/src/test/resources/features/reservation.feature:4)
-&amp#27;[0m
-  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36muser scroll page down&amp#27;[0m                                                              &amp#27;[90m# net.seafoodworld.step_definition.ReservationStepDef.userScrollPageDown()&amp#27;[0m
-  &amp#27;[36mThen &amp#27;[0m&amp#27;[36muser should see correct information&amp#27;[0m                                                &amp#27;[90m# net.seafoodworld.step_definition.ReservationStepDef.userShouldSeeCorrectInformation()&amp#27;[0m
-
-    Embedding Attached img [image/png 886243 bytes]
-
+Scenario: user should see on contact page correct address, opening hours and phone number &amp#27;[90m# src/test/resources/features/reservation.feature:41&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser at the contact page&amp#27;[0m                                                          &amp#27;[90m# net.seafoodworld.step_definition.ReservationStepDef.user_at_the_contact_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser scroll page down&amp#27;[0m                                                              &amp#27;[90m# net.seafoodworld.step_definition.ReservationStepDef.userScrollPageDown()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser should see correct information&amp#27;[0m                                                &amp#27;[90m# net.seafoodworld.step_definition.ReservationStepDef.userShouldSeeCorrectInformation()&amp#27;[0m
 ]]></system-out>
     <system-err><![CDATA[[pool-2-thread-3] ERROR io.github.bonigarcia.wdm.online.HttpClient - Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_118
 [pool-2-thread-3] WARN io.github.bonigarcia.wdm.versions.VersionDetector - Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_118 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_118)
 [pool-2-thread-3] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\USER\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
-Starting ChromeDriver 118.0.5993.70 (e52f33f30b91b4ddfad649acddc39ab570473b86-refs/branch-heads/5993@{#1216}) on port 40919
+Starting ChromeDriver 118.0.5993.70 (e52f33f30b91b4ddfad649acddc39ab570473b86-refs/branch-heads/5993@{#1216}) on port 2552
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Oct 26, 2023 6:00:40 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Oct 30, 2023 9:24:23 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 118
-Oct 26, 2023 6:00:40 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+Oct 30, 2023 9:24:23 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.8.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="user should see map on the contact page" classname="user should be able to reserve a table online" time="11.512">
+  <testcase name="user should see map on the contact page" classname="user should be able to reserve a table online" time="11.259">
     <system-out><![CDATA[
 @regression
-Scenario: user should see map on the contact page &amp#27;[90m# src/test/resources/features/reservation.feature:46&amp#27;[0m
+Scenario: user should see map on the contact page &amp#27;[90m# src/test/resources/features/reservation.feature:45&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser at the contact page&amp#27;[0m                  &amp#27;[90m# net.seafoodworld.step_definition.ReservationStepDef.user_at_the_contact_page()&amp#27;[0m
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser scroll all the way down&amp#27;[0m               &amp#27;[90m# net.seafoodworld.step_definition.ReservationStepDef.userScrollAllTheWayDown()&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser should see map&amp#27;[0m                        &amp#27;[90m# net.seafoodworld.step_definition.ReservationStepDef.userShouldSeeMap()&amp#27;[0m
@@ -422,20 +325,20 @@ Scenario: user should see map on the contact page &amp#27;[90m# src/test/resourc
     <system-err><![CDATA[[pool-2-thread-3] ERROR io.github.bonigarcia.wdm.online.HttpClient - Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_118
 [pool-2-thread-3] WARN io.github.bonigarcia.wdm.versions.VersionDetector - Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_118 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_118)
 [pool-2-thread-3] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\USER\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
-Starting ChromeDriver 118.0.5993.70 (e52f33f30b91b4ddfad649acddc39ab570473b86-refs/branch-heads/5993@{#1216}) on port 6253
+Starting ChromeDriver 118.0.5993.70 (e52f33f30b91b4ddfad649acddc39ab570473b86-refs/branch-heads/5993@{#1216}) on port 45540
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Oct 26, 2023 6:00:57 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Oct 30, 2023 9:24:35 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 118
-Oct 26, 2023 6:00:57 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+Oct 30, 2023 9:24:35 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.8.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="user should see facebook picture link" classname="user should be able to reserve a table online" time="15.236">
+  <testcase name="user should see facebook picture link" classname="user should be able to reserve a table online" time="13.885">
     <system-out><![CDATA[
 @regression
-Scenario: user should see facebook picture link &amp#27;[90m# src/test/resources/features/reservation.feature:50&amp#27;[0m
+Scenario: user should see facebook picture link &amp#27;[90m# src/test/resources/features/reservation.feature:49&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser at the contact page&amp#27;[0m                &amp#27;[90m# net.seafoodworld.step_definition.ReservationStepDef.user_at_the_contact_page()&amp#27;[0m
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32muser click on the facebook picture link&amp#27;[0m  &amp#27;[90m# net.seafoodworld.step_definition.ReservationStepDef.userClickOnTheFacebookPictureLink()&amp#27;[0m
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32muser should see Facebook page&amp#27;[0m            &amp#27;[90m# net.seafoodworld.step_definition.ReservationStepDef.userShouldSeeFacebookPage()&amp#27;[0m
@@ -443,13 +346,13 @@ Scenario: user should see facebook picture link &amp#27;[90m# src/test/resources
     <system-err><![CDATA[[pool-2-thread-3] ERROR io.github.bonigarcia.wdm.online.HttpClient - Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_118
 [pool-2-thread-3] WARN io.github.bonigarcia.wdm.versions.VersionDetector - Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_118 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_118)
 [pool-2-thread-3] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\USER\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe
-Starting ChromeDriver 118.0.5993.70 (e52f33f30b91b4ddfad649acddc39ab570473b86-refs/branch-heads/5993@{#1216}) on port 43917
+Starting ChromeDriver 118.0.5993.70 (e52f33f30b91b4ddfad649acddc39ab570473b86-refs/branch-heads/5993@{#1216}) on port 9085
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Oct 26, 2023 6:01:08 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Oct 30, 2023 9:24:46 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 118
-Oct 26, 2023 6:01:08 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+Oct 30, 2023 9:24:46 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.8.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
